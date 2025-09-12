@@ -1,4 +1,5 @@
 import { USE_LOCAL } from "../utils/config";
+
 export const sendContactForm = async (data) => {
   const response = await fetch("/api/contact", {
     method: "POST",
@@ -23,6 +24,7 @@ export function getStrapiMedia(url) {
   const cleanUrl = url
     .replace(/^\/?uploads\/uploads\//, '')
     .replace(/^\/?uploads\//, '');
+    
 
   if (USE_LOCAL) {
     // Local files are in /content-export/uploads/

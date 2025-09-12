@@ -1,1 +1,1 @@
-export const USE_LOCAL = process.env.USE_LOCAL === 'true';
+export const USE_LOCAL = "true";

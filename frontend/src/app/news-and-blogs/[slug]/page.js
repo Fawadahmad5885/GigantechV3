@@ -5,9 +5,8 @@ import NewsDetailClient from "../../../app/components/news-components/NewsDetail
 
 // Generate static paths for both local and Strapi data
 export async function generateStaticParams() {
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+  if (process.env.USE_LOCAL) {
     try {
-
       const localData = await fetchStrapi("news-items");
       return (localData || []).map((item) => ({
         slug: item.slug,
@@ -35,7 +34,7 @@ export async function generateStaticParams() {
 async function getNewsData(slug) {
   let res;
 
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+  if (process.env.USE_LOCAL) {
     try {
       res = await fetchStrapi(
         `news-items?filters[slug][$eq]=${slug}&populate[image][fields]=url`
@@ -97,7 +96,7 @@ async function getNewsContactData() {
 
   const data = await fetchStrapi(endpoint);
 
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA && Array.isArray(data)) {
+  if (process.env.USE_LOCAL && Array.isArray(data)) {
     // Transform local contact data to match Strapi structure
     return {
       contact_section: data[0]?.contact_section || {},

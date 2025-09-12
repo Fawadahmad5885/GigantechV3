@@ -3,7 +3,7 @@ import { fetchStrapi, getStrapiMedia } from "../../../lib/api";
 import CaseStudyMain from "../../components/case-studies-components/CaseStudyMain";
 
 export async function generateStaticParams() {
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+  if (process.env.USE_LOCAL) {
     try {
       const localData = await fetchStrapi("case-study-cards");
       return (localData || []).map((item) => ({
@@ -32,7 +32,7 @@ export async function generateStaticParams() {
 async function getCaseStudyData(slug) {
   let res;
 
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+  if (process.env.USE_LOCAL) {
     try {
       res = await fetchStrapi(
         `case-study-cards?filters[slug][$eq]=${slug}&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url`
@@ -93,7 +93,7 @@ async function getContactData() {
 
   const data = await fetchStrapi(endpoint);
 
-  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA && Array.isArray(data)) {
+  if (process.env.USE_LOCAL && Array.isArray(data)) {
     // Transform local contact data to match Strapi structure
     return {
       contact_section: data[0]?.contact_section || {},

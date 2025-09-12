@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_heroes",
+  "info": {
+    "singularName": "about-hero",
+    "pluralName": "about-heroes",
+    "displayName": "AboutHero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.primary-button"
+    },
+    "aboutHeroCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_blogs_pages",
+  "info": {
+    "singularName": "news-blogs-page",
+    "pluralName": "news-blogs-pages",
+    "displayName": "News  Blogs Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contact_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-section.contact-section"
+    },
+    "news_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-item.news-item",
+      "mappedBy": "news_blogs_page"
+    },
+    "news_blogs_and_event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::news-blogs-and-event.news-blogs-and-event"
+    }
+  }
+}

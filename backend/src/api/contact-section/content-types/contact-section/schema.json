@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_sections",
+  "info": {
+    "singularName": "contact-section",
+    "pluralName": "contact-sections",
+    "displayName": "Contact Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "footerSteps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "texts.footer-steps"
+    },
+    "contactForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.form",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

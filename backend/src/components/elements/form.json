@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_forms",
+  "info": {
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.input"
+    },
+    "inputOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.input-options"
+    },
+    "serviceTitles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.services-title"
+    }
+  }
+}

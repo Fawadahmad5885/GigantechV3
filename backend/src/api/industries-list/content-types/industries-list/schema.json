@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries_lists",
+  "info": {
+    "singularName": "industries-list",
+    "pluralName": "industries-lists",
+    "displayName": "Industries List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "industryShortTitle": {
+      "type": "string",
+      "required": true
+    },
+    "layout_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::layout-page.layout-page",
+      "inversedBy": "industries_lists"
+    }
+  }
+}

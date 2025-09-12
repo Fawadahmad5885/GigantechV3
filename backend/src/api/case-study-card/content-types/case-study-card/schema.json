@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_study_cards",
+  "info": {
+    "singularName": "case-study-card",
+    "pluralName": "case-study-cards",
+    "displayName": "Case Study Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "CardButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.primary-button"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "region": {
+      "type": "string"
+    },
+    "caseStudyStatus": {
+      "type": "string"
+    },
+    "aboutClient": {
+      "type": "text"
+    },
+    "caseStudyCarousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.carousel"
+    },
+    "showOnTop": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "unique": false
+    },
+    "content": {
+      "type": "text"
+    },
+    "landing_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::landing-page.landing-page",
+      "inversedBy": "case_study_cards"
+    },
+    "case_studies_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::case-studies-page.case-studies-page",
+      "inversedBy": "case_study_cards"
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tech-card"
+    },
+    "technologiesCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tech-card"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_texts_styled_texts",
+  "info": {
+    "displayName": "StyledText"
+  },
+  "options": {},
+  "attributes": {
+    "preText": {
+      "type": "text"
+    },
+    "highLighted": {
+      "type": "string"
+    },
+    "postText": {
+      "type": "text"
+    }
+  }
+}

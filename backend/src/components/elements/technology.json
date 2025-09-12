@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_technologies",
+  "info": {
+    "displayName": "Technology"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "technologyTechCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tech-card"
+    }
+  }
+}

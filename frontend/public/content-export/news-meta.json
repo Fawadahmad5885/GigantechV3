@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": 7,
+    "documentId": "wf0xqbeen2eyhqujjqecuh03",
+    "createdAt": "2025-07-14T10:55:15.035Z",
+    "updatedAt": "2025-08-22T15:14:35.203Z",
+    "publishedAt": "2025-08-22T15:14:35.215Z",
+    "newsMetaData": {
+      "id": 39,
+      "metaTitle": "News & Blogs | Gigantech - Insights on AI, Cloud, App & Web Development",
+      "metaDescription": "Stay updated with the latest news, insights, and blogs from Gigantech. Explore articles on AI, App Development, Cloud Computing, Web Development, and digital transformation.",
+      "keyWords": "Gigantech blog, tech news, AI insights, app development blogs, cloud computing articles, web development tips, digital transformation news",
+      "metaImage": {
+        "id": 170,
+        "documentId": "xljzfku6ph96gr56lb2iye6v",
+        "name": "eyratech-logo.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 30,
+        "height": 32,
+        "formats": {},
+        "hash": "eyratech_logo_7f41079570",
+        "ext": ".png",
+        "mime": "image/x-icon",
+        "size": 15.41,
+        "url": "/uploads/eyratech_logo_7f41079570.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-14T10:53:57.165Z",
+        "updatedAt": "2025-08-22T15:07:41.801Z",
+        "publishedAt": "2025-07-14T10:53:57.165Z"
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies_containers",
+  "info": {
+    "singularName": "case-studies-container",
+    "pluralName": "case-studies-containers",
+    "displayName": "Case Studies Container",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CaseStudyCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

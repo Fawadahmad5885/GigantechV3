@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_sections",
+  "info": {
+    "singularName": "services-section",
+    "pluralName": "services-sections",
+    "displayName": "Services Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "serviceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

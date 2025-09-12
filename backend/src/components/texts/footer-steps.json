@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_texts_footer_steps",
+  "info": {
+    "displayName": "Footer Steps"
+  },
+  "options": {},
+  "attributes": {
+    "firstStep": {
+      "type": "text",
+      "required": true
+    },
+    "secondStep": {
+      "type": "text",
+      "required": true
+    },
+    "thirdStep": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

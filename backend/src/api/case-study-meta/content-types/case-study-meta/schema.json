@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "case_study_metas",
+  "info": {
+    "singularName": "case-study-meta",
+    "pluralName": "case-study-metas",
+    "displayName": "Case Study Meta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "caseStudiesMetaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    }
+  }
+}

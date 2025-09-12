@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_services_titles",
+  "info": {
+    "displayName": "services Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

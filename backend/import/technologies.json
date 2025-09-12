@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Python",
+    "category": "Artificial Intelligence",
+    "slug": "python",
+    "logo": "python.png",
+    "tooltip": "Core AI language"
+  },
+  {
+    "name": "FastAPI",
+    "category": "Artificial Intelligence",
+    "slug": "fastapi",
+    "logo": "fast-api.png",
+    "tooltip": "High-performance API framework"
+  },
+  {
+    "name": "TensorFlow",
+    "category": "Artificial Intelligence",
+    "slug": "tensorflow",
+    "logo": "tensor-flow-image.png",
+    "tooltip": "Google ML framework"
+  },
+  {
+    "name": "Keras",
+    "category": "Artificial Intelligence",
+    "slug": "keras",
+    "logo": "keras.png",
+    "tooltip": "High-level NN API"
+  },
+  {
+    "name": "PyTorch",
+    "category": "Artificial Intelligence",
+    "slug": "pytorch",
+    "logo": "pytorch.svg",
+    "tooltip": "Facebook ML library"
+  },
+  {
+    "name": "Scikit",
+    "category": "Artificial Intelligence",
+    "slug": "scikit",
+    "logo": "scikit.png",
+    "tooltip": "Classical ML library"
+  },
+  {
+    "name": "Matplotlib",
+    "category": "Artificial Intelligence",
+    "slug": "matplotlib",
+    "logo": "matplotlib.svg",
+    "tooltip": "Plotting library"
+  },
+  {
+    "name": "Milvus",
+    "category": "Artificial Intelligence",
+    "slug": "milvus",
+    "logo": "milvus.jpg",
+    "tooltip": "Scalable vector DB"
+  },
+  {
+    "name": "Pinecone",
+    "category": "Artificial Intelligence",
+    "slug": "pinecone",
+    "logo": "Pinecone.png",
+    "tooltip": "Managed vector DB"
+  },
+  {
+    "name": "Weaviate",
+    "category": "Artificial Intelligence",
+    "slug": "weaviate",
+    "logo": "weaviate.png",
+    "tooltip": "Hybrid vector search"
+  },
+  {
+    "name": "ChromaDB",
+    "category": "Artificial Intelligence",
+    "slug": "chromadb",
+    "logo": "chroma.png",
+    "tooltip": "Embedding database"
+  },
+  {
+    "name": "LangChain",
+    "category": "Artificial Intelligence",
+    "slug": "langchain",
+    "logo": "long-chain.png",
+    "tooltip": "LLM app framework"
+  },
+  {
+    "name": "OpenCV",
+    "category": "Artificial Intelligence",
+    "slug": "opencv",
+    "logo": "opencv-icon.png",
+    "tooltip": "Computer vision library"
+  },
+  {
+    "name": "VLM",
+    "category": "Artificial Intelligence",
+    "slug": "vlm",
+    "logo": "vlm.jpg",
+    "tooltip": "Vision-language model"
+  },
+  {
+    "name": "OCR",
+    "category": "Artificial Intelligence",
+    "slug": "ocr",
+    "logo": "ocr-image.png",
+    "tooltip": "Optical character recognition"
+  },
+  {
+    "name": "TTS",
+    "category": "Artificial Intelligence",
+    "slug": "tts",
+    "logo": "tts.png",
+    "tooltip": "Text-to-speech"
+  },
+  {
+    "name": "NLP",
+    "category": "Artificial Intelligence",
+    "slug": "nlp",
+    "logo": "nlp.png",
+    "tooltip": "Natural language processing"
+  },
+  {
+    "name": "Hugging Face",
+    "category": "Artificial Intelligence",
+    "slug": "hugging-face",
+    "logo": "huggingface.svg",
+    "tooltip": "ML model hub"
+  },
+  {
+    "name": "OpenAI",
+    "category": "Artificial Intelligence",
+    "slug": "openai",
+    "logo": "openai-icon.png",
+    "tooltip": "Models by OpenAI"
+  },
+  {
+    "name": "LLaMA",
+    "category": "Artificial Intelligence",
+    "slug": "llama",
+    "logo": "llama.png",
+    "tooltip": "Models by Meta"
+  },
+  {
+    "name": "DeepSeek",
+    "category": "Artificial Intelligence",
+    "slug": "deepseek",
+    "logo": "deepseek.png",
+    "tooltip": "Models by DeepSeek"
+  },
+  {
+    "name": "Gemini",
+    "category": "Artificial Intelligence",
+    "slug": "gemini",
+    "logo": "gemini.png",
+    "tooltip": "Models by Google"
+  },
+  {
+    "name": "Qwen",
+    "category": "Artificial Intelligence",
+    "slug": "qwen",
+    "logo": "qwen.png",
+    "tooltip": "Models by AliBaba"
+  },
+  {
+    "name": "Claude",
+    "category": "Artificial Intelligence",
+    "slug": "claude",
+    "logo": "claude.png",
+    "tooltip": "models by Anthropic"
+  },
+  {
+    "name": "PE",
+    "category": "Artificial Intelligence",
+    "slug": "pe",
+    "logo": "promptengineering.png",
+    "tooltip": "LLM prompt engineering"
+  },
+  {
+    "name": "RAG",
+    "category": "Artificial Intelligence",
+    "slug": "rag",
+    "logo": "rag.png",
+    "tooltip": "Retrieval augmented generation"
+  },
+  {
+    "name": "Transformers",
+    "category": "Artificial Intelligence",
+    "slug": "transformers",
+    "logo": "huggingface.svg",
+    "tooltip": "Library for NLP transformer models"
+  },
+  {
+    "name": "LlamaIndex",
+    "category": "Artificial Intelligence",
+    "slug": "llamaindex",
+    "logo": "llamaindex.png",
+    "tooltip": "Data retrieval framework"
+  },
+  {
+    "name": "Ollama",
+    "category": "Artificial Intelligence",
+    "slug": "ollama",
+    "logo": "ollama.png",
+    "tooltip": "Running open-source LLMs locally"
+  },
+  {
+    "name": "TypeScript",
+    "category": "Web Development",
+    "slug": "typescript",
+    "logo": "typescript.svg",
+    "tooltip": "Strongly typed JavaScript"
+  },
+  {
+    "name": "React",
+    "category": "Web Development",
+    "slug": "react",
+    "logo": "react.png",
+    "tooltip": "Frontend library for UI"
+  },
+  {
+    "name": "NextJS",
+    "category": "Web Development",
+    "slug": "nextjs",
+    "logo": "next-js.png",
+    "tooltip": "React framework for SSR"
+  },
+  {
+    "name": "MUI",
+    "category": "Web Development",
+    "slug": "mui",
+    "logo": "mui.svg",
+    "tooltip": "Material-UI for React"
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "Web Development",
+    "slug": "tailwind-css",
+    "logo": "tailwindcss.svg",
+    "tooltip": "Utility-first CSS framework"
+  },
+  {
+    "name": "Node JS",
+    "category": "Web Development",
+    "slug": "node-js",
+    "logo": "nodejs.svg",
+    "tooltip": "JavaScript runtime environment"
+  },
+  {
+    "name": "NestJS",
+    "category": "Web Development",
+    "slug": "nestjs",
+    "logo": "nestjs.png",
+    "tooltip": "Progressive Node.js framework"
+  },
+  {
+    "name": "Loopback io",
+    "category": "Web Development",
+    "slug": "loopback-io",
+    "logo": "loopback-io.png",
+    "tooltip": "API framework for Node.js"
+  },
+  {
+    "name": "Express JS",
+    "category": "Web Development",
+    "slug": "express-js",
+    "logo": "expressjs.svg",
+    "tooltip": "Web framework for Node.js"
+  },
+  {
+    "name": "Django",
+    "category": "Web Development",
+    "slug": "django",
+    "logo": "django.svg",
+    "tooltip": "Web framework for Python"
+  },
+  {
+    "name": "Flask",
+    "category": "Web Development",
+    "slug": "flask",
+    "logo": "flask.svg",
+    "tooltip": "Lightweight Python web framework"
+  },
+  {
+    "name": "MongoDB",
+    "category": "Web Development",
+    "slug": "mongodb",
+    "logo": "mongodb.svg",
+    "tooltip": "NoSQL database"
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "Web Development",
+    "slug": "postgresql",
+    "logo": "postgress.svg",
+    "tooltip": "Relational database"
+  },
+  {
+    "name": "MySQL",
+    "category": "Web Development",
+    "slug": "mysql",
+    "logo": "mysql.svg",
+    "tooltip": "Popular relational database"
+  },
+  {
+    "name": "Redis",
+    "category": "Web Development",
+    "slug": "redis",
+    "logo": "redis.png",
+    "tooltip": "In-memory data store"
+  },
+  {
+    "name": "Memcached",
+    "category": "Web Development",
+    "slug": "memcached",
+    "logo": "memcached.svg",
+    "tooltip": "Distributed memory caching system"
+  },
+  {
+    "name": "Android",
+    "category": "Mobile App Development",
+    "slug": "android",
+    "logo": "android.png",
+    "tooltip": "Google's mobile operating system"
+  },
+  {
+    "name": "iOS",
+    "category": "Mobile App Development",
+    "slug": "ios",
+    "logo": "ios.svg",
+    "tooltip": "Apple's mobile operating system"
+  },
+  {
+    "name": "SwiftUI",
+    "category": "Mobile App Development",
+    "slug": "swiftui",
+    "logo": "swiftui.png",
+    "tooltip": "Declarative UI framework for Apple platforms"
+  },
+  {
+    "name": "Storyboard",
+    "category": "Mobile App Development",
+    "slug": "storyboard",
+    "logo": "storyboard.svg",
+    "tooltip": "Interface builder for iOS apps"
+  },
+  {
+    "name": "Java",
+    "category": "Mobile App Development",
+    "slug": "java",
+    "logo": "java-icon.png",
+    "tooltip": "Popular programming language for Android development"
+  },
+  {
+    "name": "Kotlin",
+    "category": "Mobile App Development",
+    "slug": "kotlin",
+    "logo": "kotlin.svg",
+    "tooltip": "Modern programming language for Android development"
+  },
+  {
+    "name": "MAUI",
+    "category": "Mobile App Development",
+    "slug": "maui",
+    "logo": "maui.svg",
+    "tooltip": ".NET Multi-platform App UI"
+  },
+  {
+    "name": "React Native",
+    "category": "Mobile App Development",
+    "slug": "react-native",
+    "logo": "reactnative.png",
+    "tooltip": "Cross-platform framework for mobile apps"
+  },
+  {
+    "name": "C",
+    "category": "Embedded AI",
+    "slug": "c",
+    "logo": "c.png",
+    "tooltip": "Programming language for Embedded AI"
+  },
+  {
+    "name": "C++",
+    "category": "Embedded AI",
+    "slug": "c-plus-plus",
+    "logo": "cpp-icon.png",
+    "tooltip": "Object-oriented programming language for systems programming"
+  },
+  {
+    "name": "ARM",
+    "category": "Embedded AI",
+    "slug": "arm",
+    "logo": "arm.png",
+    "tooltip": "Advanced RISC Machine architecture"
+  },
+  {
+    "name": "Microchip",
+    "category": "Embedded AI",
+    "slug": "microchip",
+    "logo": "microchip-icon.png",
+    "tooltip": "Microcontroller solutions provider"
+  },
+  {
+    "name": "Renesas",
+    "category": "Embedded AI",
+    "slug": "renesas",
+    "logo": "renesas.png",
+    "tooltip": "Manufacturer of semiconductors"
+  },
+  {
+    "name": "SiLabs",
+    "category": "Embedded AI",
+    "slug": "silabs",
+    "logo": "silab-image.png",
+    "tooltip": "Silicon Labs - IoT solutions"
+  },
+  {
+    "name": "STM",
+    "category": "Embedded AI",
+    "slug": "stm",
+    "logo": "stm.png",
+    "tooltip": "STMicroelectronics - semiconductor solutions"
+  },
+  {
+    "name": "Beaglebone",
+    "category": "Embedded AI",
+    "slug": "beaglebone",
+    "logo": "beaglebaord-embedded.svg",
+    "tooltip": "Low-power open-source single-board computer"
+  },
+  {
+    "name": "Motorolla",
+    "category": "Embedded AI",
+    "slug": "motorolla",
+    "logo": "motorola.jpg",
+    "tooltip": "Telecommunication and embedded solutions provider"
+  },
+  {
+    "name": "Raspberry Pi",
+    "category": "Embedded AI",
+    "slug": "raspberry-pi",
+    "logo": "respberry.png",
+    "tooltip": "Small and affordable computer for learning"
+  },
+  {
+    "name": "Arduino",
+    "category": "Embedded AI",
+    "slug": "arduino",
+    "logo": "ardino.png",
+    "tooltip": "Open-source electronics platform"
+  },
+  {
+    "name": "BLE",
+    "category": "Embedded AI",
+    "slug": "ble",
+    "logo": "ble.png",
+    "tooltip": "Bluetooth Low Energy for IoT"
+  },
+  {
+    "name": "ZigBee",
+    "category": "Embedded AI",
+    "slug": "zigbee",
+    "logo": "zigbee.png",
+    "tooltip": "Wireless technology for IoT"
+  },
+  {
+    "name": "Radar",
+    "category": "Embedded AI",
+    "slug": "radar",
+    "logo": "radar.png",
+    "tooltip": "Radio detection and ranging system"
+  },
+  {
+    "name": "FreeRTOS",
+    "category": "Embedded AI",
+    "slug": "freertos",
+    "logo": "rtos.png",
+    "tooltip": "Real-Time Operating System for embedded devices"
+  },
+  {
+    "name": "Selenium",
+    "category": "Quality Assurance",
+    "slug": "selenium",
+    "logo": "qa.selenium.png",
+    "tooltip": "Automated testing tool for web applications"
+  },
+  {
+    "name": "Jenkins",
+    "category": "Quality Assurance",
+    "slug": "jenkins",
+    "logo": "qa.jenkins.png",
+    "tooltip": "Continuous integration and delivery tool"
+  },
+  {
+    "name": "Manual Testing",
+    "category": "Quality Assurance",
+    "slug": "manual-testing",
+    "logo": "qa.manualtesting.png",
+    "tooltip": "Human-driven testing to identify issues"
+  },
+  {
+    "name": "Auto Testing",
+    "category": "Quality Assurance",
+    "slug": "auto-testing",
+    "logo": "qa.autotesting.png",
+    "tooltip": "Automated testing for repetitive tasks"
+  },
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "slug": "docker",
+    "logo": "docker.png",
+    "tooltip": "Containerization platform for packaging and deploying applications"
+  },
+  {
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "slug": "kubernetes",
+    "logo": "kuberneter.svg",
+    "tooltip": "Open-source container orchestration system for automating deployment and scaling"
+  },
+  {
+    "name": "Terraform",
+    "category": "DevOps",
+    "slug": "terraform",
+    "logo": "terraform.png",
+    "tooltip": "Infrastructure-as-Code (IaC) tool for provisioning multi-cloud resources"
+  },
+  {
+    "name": "Ansible",
+    "category": "DevOps",
+    "slug": "ansible",
+    "logo": "ansble.png",
+    "tooltip": "Agentless automation tool for configuration management and orchestration"
+  },
+  {
+    "name": "Prometheus",
+    "category": "DevOps",
+    "slug": "prometheus",
+    "logo": "Prometheus-icon.png",
+    "tooltip": "Open-source monitoring and alerting toolkit for metrics collection"
+  },
+  {
+    "name": "Grafana",
+    "category": "DevOps",
+    "slug": "grafana",
+    "logo": "grafana.png",
+    "tooltip": "Observability platform for visualizing metrics, logs, and traces"
+  },
+  {
+    "name": "Azure",
+    "category": "DevOps",
+    "slug": "azure",
+    "logo": "azure.svg",
+    "tooltip": "Microsoft Azure DevOps"
+  },
+  {
+    "name": "AWS",
+    "category": "DevOps",
+    "slug": "aws",
+    "logo": "aws.svg",
+    "tooltip": "Amazon Web Services"
+  }
+]

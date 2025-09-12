@@ -1,0 +1,489 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light;
+}
+
+body.no-scroll {
+  overflow: clip;
+}
+
+
+
+
+body {
+  color: var(--foreground);
+  overflow-x: hidden;
+  
+  background: var(--background);
+  font-family: sans-serif,'Poppins';
+}
+
+.component-width {
+  @apply w-full  lg:max-w-[940px] 2xl:max-w-[1346px]  xl:max-w-[1200px]
+}
+
+.heading-text {
+  @apply text-3xl max-md:text-start lg:text-5xl mb-3 font-medium text-textColor 
+}
+.section-description {
+  @apply sm:text-lg text-sm text-textColor font-poppins font-medium lg:w-1/2 mx-auto max-sm:text-left
+}
+.card-container {
+  @apply mx-auto grid grid-cols-1 md:grid-cols-2 max-lg:px-5 lg:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6
+}
+
+.card-description {
+  @apply text-gray-700 text-left text-sm md:text-base font-poppins
+}
+
+.footer-items-heading {
+  @apply  text-start font-poppins text-xl font-medium tracking-wide
+}
+
+
+.capgemini-nav-item {
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  transition: background-size 0.5s ease, color 0.3s ease;
+  display: inline-block;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+
+.capgemini-social-nav-item {
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #15011d;
+  background: #fff;
+  border-radius: 50%;
+  color: #15011d;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.w-screen {
+  width: 100vw;
+}
+
+.left-0 {
+  left: 0; 
+}
+
+.right-0 {
+  right: 0;
+}
+
+.top-full {
+  top: 100%;
+}
+
+.shadow-md {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.z-50 {
+  z-index: 50; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Scroll half the total content width */
+  }
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+  will-change: transform;
+}
+.scroll-content:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+.item {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  width: 150px; /* Adjust based on your design */
+}
+
+@media (min-width: 768px) {
+  .item {
+    width: 240px;
+  }
+}
+.button-group:hover .button-group-hover\:translate-x-0 {
+  transform: translateX(0);
+}
+
+.splide__pagination__page.is-active {
+  background-color: #2b6777!important;
+}
+
+.splide__arrow {
+  position: absolute!important;
+  background-color: transparent!important;
+  border: none!important;
+  font-size: 2rem!important;
+  color: #2b6777 !important;
+  font-weight: 300!important;
+}
+
+.truncate-5-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative; /* Needed for the dots placement */
+}
+
+.contactus-img {
+  display: none;
+}
+
+
+.registeraton-left{
+  /* background-image: url("../../public/images/register2.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+.registeraton-left::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-style: solid;
+  border-width: 0 100px 100px 0;
+  border-color: #cdcdce #ffffff;
+  transition: all ease 0.5s;
+}
+.registeraton-left::before {
+  display: none !important;
+}
+
+.hover-effect {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+  /* color: #1e98cc; */
+}
+
+.our-history-desc{
+  font-size:8px ;
+  color:white;
+  line-height:2;
+}
+
+.menu-item {
+  color: #d8d8d8!important;
+  padding: 2px 0;
+  }
+.menu-item :hover{
+color: #d8d8d8!important;
+font-weight: 800;
+}
+
+.css-ld2x13{
+  border: none!important;
+}
+
+
+
+.tech-stack-box{
+  transition: transform 0.3s ease-in-out;}
+
+.tech-stack-box:hover{
+background-color: #F5F5F5		!important;
+transform: scale(1.1); /* Adjust the scale value as needed */
+
+
+}
+
+
+.tech-stack-img{
+  width:70px;
+  height:50px
+}
+
+
+.tech-categories-title{
+
+}
+
+.tech-category-sub-wrapper{
+  display: flex;
+   width: 100%;
+  flex-wrap: wrap; 
+}
+
+.techstack-wrapper{
+/* background-image: url("../../public/images//techbg.png"); */
+background-size: cover;
+height: auto!important;
+}
+
+.custom-swiper-pagination {
+  margin-top: 20px; /* Add space from the top */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: #3a3838!important; 
+  width: 30px !important;
+  height: 10px;
+  border-radius: 2px !important;
+  margin: 0 5px; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #06282C !important; 
+}
+
+.services-card, .services-card:hover{
+  box-shadow: 1px 1px 5px 0px #6b6b6b50;
+}
+@layer utilities {
+  .first-footer-bg {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .first-footer-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/assets/images/world-map.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+  }
+
+
+  .technologies-bg-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .technologies-bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/assets/images/lines.svg');
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.05;
+  }
+  .arbisoft-bg {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 100px;
+    object-fit: cover;
+  }
+  
+  .arbisoft-bg::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/assets/images/about-us-images/banner_about_e03a2d2608.jpg');
+    background-size: cover; 
+    background-position: right center;
+        
+  }
+
+.industries-popup-data {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.industries-popup-data::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.industries-popup-content {
+  position: relative;
+  z-index: 100;
+  color: #fff;
+}
+
+
+}
+
+/* Only apply these styles to elements with .scrollbar-thin class */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: rgb(243 244 246);
+  border-radius: 0.375rem;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgb(209 213 219);
+  border-radius: 0.375rem;
+  transition: background-color 0.3s ease;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(156 163 175);
+}
+
+/* Utility classes */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.scale-102 {
+  transform: scale(1.02);
+}
+.swiper-slide {
+  margin-top: 0 !important;
+}
+
+/* Add manual spacing between first row and second row */
+.swiper-wrapper .swiper-slide:nth-child(n + 1) {
+  padding-top: 10px;
+}
+
+
+
+
+.primaryButton {
+  --color: #03466E;
+  font-family: inherit;
+  display: inline-block;
+
+  line-height: 2.5em;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+.primaryButton::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 235px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.primaryButton:hover {
+  color: white;
+}
+
+.primaryButton:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+.primaryButton:hover::before {
+  top: -30px;
+  left: -30px;
+}
+@keyframes revealMask {
+  from {
+    clip-path: inset(0 0 0 100%); /* fully hidden (masked from right) */
+  }
+  to {
+    clip-path: inset(0 0 0 0);    /* fully visible */
+  }
+}
+
+.animate-revealMask {
+  animation: revealMask 3s ease-out forwards;
+}
+
+
+.markdown-body img {
+  max-width: 500px;
+  height: auto;
+}

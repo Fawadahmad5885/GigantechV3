@@ -1,0 +1,388 @@
+{
+  "data": [
+    {
+      "id": 6,
+      "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+      "createdAt": "2025-07-21T09:28:57.083Z",
+      "updatedAt": "2025-07-21T10:53:44.419Z",
+      "publishedAt": "2025-07-21T10:53:44.436Z",
+      "header_section": {
+        "id": 21,
+        "documentId": "r0n4wxqv3q928g7v845yaln4",
+        "createdAt": "2025-07-21T10:31:43.257Z",
+        "updatedAt": "2025-08-22T13:36:46.512Z",
+        "publishedAt": "2025-08-22T13:36:46.537Z",
+        "logo": {
+          "id": 175,
+          "documentId": "bhsdngkd5r2qkx4rusyrzkea",
+          "url": "/uploads/Smach_Stach_3_cddc45da0b.png"
+        },
+        "navItems": [
+          {
+            "id": 122,
+            "Label": "Industries",
+            "SectionId": "industries",
+            "linkType": "section"
+          },
+          {
+            "id": 123,
+            "Label": "Services",
+            "SectionId": "services",
+            "linkType": "section"
+          },
+          {
+            "id": 124,
+            "Label": "Case Studies",
+            "SectionId": "case-studies",
+            "linkType": "page"
+          },
+          {
+            "id": 125,
+            "Label": "News & Blogs",
+            "SectionId": "news-and-blogs",
+            "linkType": "page"
+          },
+          {
+            "id": 126,
+            "Label": "About",
+            "SectionId": "about-us",
+            "linkType": "page"
+          }
+        ]
+      },
+      "footer_section": {
+        "id": 19,
+        "documentId": "nhcc3m9fqzrd5e2xw59noyt2",
+        "createdAt": "2025-05-28T11:39:21.661Z",
+        "updatedAt": "2025-08-28T14:40:28.823Z",
+        "publishedAt": "2025-08-28T14:40:28.854Z",
+        "description": "GiganTech, LLC\nDelaware, USA",
+        "officesCard": [
+          {
+            "id": 43,
+            "heading": "SmachStack Technologies",
+            "subHeading": "Research & Innovation Hub",
+            "location": "Lahore",
+            "mobileNumber": "+1 (844) 539 3578",
+            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1474.2797783535889!2d74.34112189940284!3d31.475711238440244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190427303d1d9b%3A0x98af47ff5799036e!2zQXJmYSBJVCBUb3dlciDYp9ix2YHYuSDYotim24wg2bnbjCDZudin2YjYsQ!5e0!3m2!1sen!2s!4v1741868771027!5m2!1sen!2s",
+            "flagImage": {
+              "id": 26,
+              "documentId": "k3cc77tszqxcusaiuvq3f389",
+              "url": "/uploads/pak_flag_0f0c81ced1.png",
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_pak-flag.png",
+                  "hash": "thumbnail_pak_flag_0f0c81ced1",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 123,
+                  "size": 5.4,
+                  "sizeInBytes": 5401,
+                  "url": "/uploads/thumbnail_pak_flag_0f0c81ced1.png"
+                },
+                "medium": {
+                  "name": "medium_pak-flag.png",
+                  "hash": "medium_pak_flag_0f0c81ced1",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 375,
+                  "size": 19.16,
+                  "sizeInBytes": 19160,
+                  "url": "/uploads/medium_pak_flag_0f0c81ced1.png"
+                },
+                "large": {
+                  "name": "large_pak-flag.png",
+                  "hash": "large_pak_flag_0f0c81ced1",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 500,
+                  "size": 26.57,
+                  "sizeInBytes": 26574,
+                  "url": "/uploads/large_pak_flag_0f0c81ced1.png"
+                },
+                "small": {
+                  "name": "small_pak-flag.png",
+                  "hash": "small_pak_flag_0f0c81ced1",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 250,
+                  "size": 12.06,
+                  "sizeInBytes": 12062,
+                  "url": "/uploads/small_pak_flag_0f0c81ced1.png"
+                }
+              }
+            }
+          },
+          {
+            "id": 44,
+            "heading": "SmachStack Technologies",
+            "subHeading": "Cloud & DevOps Center",
+            "location": "London",
+            "mobileNumber": "+1 (844) 539 3987",
+            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1474.2797783535889!2d74.34112189940284!3d31.475711238440244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190427303d1d9b%3A0x98af47ff5799036e!2zQXJmYSBJVCBUb3dlciDYp9ix2YHYuSDYotim24wg2bnbjCDZudin2YjYsQ!5e0!3m2!1sen!2s!4v1741868771027!5m2!1sen!2s",
+            "flagImage": {
+              "id": 27,
+              "documentId": "d9wz665qilbjn8x9ae3u9adk",
+              "url": "/uploads/uk_flag_b872fe5a31.png",
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_uk-flag.png",
+                  "hash": "thumbnail_uk_flag_b872fe5a31",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 123,
+                  "size": 6.4,
+                  "sizeInBytes": 6395,
+                  "url": "/uploads/thumbnail_uk_flag_b872fe5a31.png"
+                },
+                "large": {
+                  "name": "large_uk-flag.png",
+                  "hash": "large_uk_flag_b872fe5a31",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 500,
+                  "size": 12.7,
+                  "sizeInBytes": 12698,
+                  "url": "/uploads/large_uk_flag_b872fe5a31.png"
+                },
+                "medium": {
+                  "name": "medium_uk-flag.png",
+                  "hash": "medium_uk_flag_b872fe5a31",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 375,
+                  "size": 8.73,
+                  "sizeInBytes": 8730,
+                  "url": "/uploads/medium_uk_flag_b872fe5a31.png"
+                },
+                "small": {
+                  "name": "small_uk-flag.png",
+                  "hash": "small_uk_flag_b872fe5a31",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 250,
+                  "size": 5.05,
+                  "sizeInBytes": 5048,
+                  "url": "/uploads/small_uk_flag_b872fe5a31.png"
+                }
+              }
+            }
+          }
+        ],
+        "whiteLogo": {
+          "id": 176,
+          "documentId": "bet1fvenqkzmktagr369kqc8",
+          "url": "/uploads/Smach_Stach_4_ce3b5bacab.png"
+        }
+      },
+      "services_lists": [
+        {
+          "id": 2,
+          "documentId": "vf2z8bwla81isrzx7tlyiknm",
+          "shortTitle": "AI & ML Development",
+          "createdAt": "2025-05-28T11:39:50.208Z",
+          "updatedAt": "2025-05-28T11:39:50.208Z",
+          "publishedAt": "2025-05-28T11:39:50.212Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 4,
+          "documentId": "kw6xcyfqbnr6borwsfdzjod6",
+          "shortTitle": "Cloud Engineering",
+          "createdAt": "2025-05-28T11:39:59.991Z",
+          "updatedAt": "2025-05-28T11:39:59.991Z",
+          "publishedAt": "2025-05-28T11:39:59.994Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 15,
+          "documentId": "hs25p5g8dpycefj9juf0k52s",
+          "shortTitle": "Embedded Systems",
+          "createdAt": "2025-05-28T11:40:06.325Z",
+          "updatedAt": "2025-08-13T09:42:30.069Z",
+          "publishedAt": "2025-08-13T09:42:30.080Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 12,
+          "documentId": "d57rqzmij25kub7jzohvo2q9",
+          "shortTitle": "ISO Certification",
+          "createdAt": "2025-05-28T11:40:22.085Z",
+          "updatedAt": "2025-05-28T11:40:22.085Z",
+          "publishedAt": "2025-05-28T11:40:22.089Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 10,
+          "documentId": "lmozgzlzuq4prr85jhazc8p6",
+          "shortTitle": "Mobile App Development",
+          "createdAt": "2025-05-28T11:40:17.662Z",
+          "updatedAt": "2025-05-28T11:40:17.662Z",
+          "publishedAt": "2025-05-28T11:40:17.666Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 8,
+          "documentId": "euzcme6p2x4vpvpvvk7h1e04",
+          "shortTitle": "Web Development",
+          "createdAt": "2025-05-28T11:40:11.534Z",
+          "updatedAt": "2025-05-28T11:40:11.534Z",
+          "publishedAt": "2025-05-28T11:40:11.537Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        }
+      ],
+      "industries_lists": [
+        {
+          "id": 12,
+          "documentId": "ek4l2ig09v0p3l073ai526i8",
+          "industryShortTitle": "Agriculture",
+          "createdAt": "2025-05-28T11:41:14.030Z",
+          "updatedAt": "2025-05-28T11:41:14.030Z",
+          "publishedAt": "2025-05-28T11:41:14.034Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 8,
+          "documentId": "jhf2j980smg9ozkhqdnrg616",
+          "industryShortTitle": "Consumer Products",
+          "createdAt": "2025-05-28T11:40:48.615Z",
+          "updatedAt": "2025-05-28T11:40:48.615Z",
+          "publishedAt": "2025-05-28T11:40:48.619Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 10,
+          "documentId": "e23i69lcz5kku6gxlxwl8e7j",
+          "industryShortTitle": "Education",
+          "createdAt": "2025-05-28T11:40:58.621Z",
+          "updatedAt": "2025-05-28T11:40:58.621Z",
+          "publishedAt": "2025-05-28T11:40:58.625Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 4,
+          "documentId": "b46wtw0rmfh2cy0dc7nm9zg4",
+          "industryShortTitle": "Energy and Utilities",
+          "createdAt": "2025-05-28T11:40:37.955Z",
+          "updatedAt": "2025-05-28T11:40:37.955Z",
+          "publishedAt": "2025-05-28T11:40:37.959Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 2,
+          "documentId": "mj6299ui3j2lq7mr97x7s2dk",
+          "industryShortTitle": "Rail Automation",
+          "createdAt": "2025-05-28T11:40:32.916Z",
+          "updatedAt": "2025-05-28T11:40:32.916Z",
+          "publishedAt": "2025-05-28T11:40:32.920Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 6,
+          "documentId": "jshwscm67iea98wkyx497tmt",
+          "industryShortTitle": "Surveillance Systems",
+          "createdAt": "2025-05-28T11:40:42.752Z",
+          "updatedAt": "2025-05-28T11:40:42.752Z",
+          "publishedAt": "2025-05-28T11:40:42.755Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_sections",
+  "info": {
+    "singularName": "footer-section",
+    "pluralName": "footer-sections",
+    "displayName": "Footer Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "officesCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.offices-card"
+    },
+    "servicesShortTitles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "texts.services-short-titles"
+    },
+    "description": {
+      "type": "text"
+    },
+    "whiteLogo": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

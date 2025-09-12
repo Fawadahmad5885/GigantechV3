@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies_sections",
+  "info": {
+    "singularName": "case-studies-section",
+    "pluralName": "case-studies-sections",
+    "displayName": "Case Studies Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.primary-button"
+    }
+  }
+}

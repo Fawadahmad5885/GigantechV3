@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_texts_text_descs",
+  "info": {
+    "displayName": "Text Desc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "bullet",
+        "miniCard"
+      ]
+    }
+  }
+}

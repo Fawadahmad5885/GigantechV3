@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about_hero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-hero.about-hero"
+    },
+    "partner_choice": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::partner-choice.partner-choice"
+    },
+    "contact_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-section.contact-section"
+    },
+    "about_story": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-story.about-story"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_client_cards",
+  "info": {
+    "displayName": "Client Card"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "clientLogo": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

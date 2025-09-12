@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": 11,
+    "documentId": "e8hvv2yav4g7btx08vqsw3c7",
+    "createdAt": "2025-05-28T11:27:35.641Z",
+    "updatedAt": "2025-08-29T11:20:05.179Z",
+    "publishedAt": "2025-08-29T11:20:05.200Z",
+    "aboutMetaData": {
+      "id": 40,
+      "metaTitle": "About Us | Gigantech - AI, App Development, Cloud & Web Solutions",
+      "metaDescription": "Learn more about Gigantech — a technology-driven company specializing in AI, App Development, Cloud Computing, and Web Development. We help businesses innovate, scale, and transform with intelligent digital solutions.",
+      "keyWords": "Gigantech, software solutions, technology company, top talent, client success",
+      "metaImage": {
+        "id": 24,
+        "documentId": "pw8m0v9xcdyf0zczm3uxb5tx",
+        "name": "favicon.ico",
+        "alternativeText": null,
+        "caption": null,
+        "width": 30,
+        "height": 32,
+        "formats": {},
+        "hash": "favicon_b8cedc392e",
+        "ext": ".ico",
+        "mime": "image/x-icon",
+        "size": 15.41,
+        "url": "/uploads/favicon_b8cedc392e.ico",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-05-28T11:27:26.290Z",
+        "updatedAt": "2025-08-22T15:06:25.949Z",
+        "publishedAt": "2025-05-28T11:27:26.290Z"
+      }
+    }
+  },
+  "meta": {}
+}

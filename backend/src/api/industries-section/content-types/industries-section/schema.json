@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries_sections",
+  "info": {
+    "singularName": "industries-section",
+    "pluralName": "industries-sections",
+    "displayName": "Industries Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "industryCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

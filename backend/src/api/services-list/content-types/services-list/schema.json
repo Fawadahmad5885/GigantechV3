@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_lists",
+  "info": {
+    "singularName": "services-list",
+    "pluralName": "services-lists",
+    "displayName": "Services List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "shortTitle": {
+      "type": "string"
+    },
+    "layout_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::layout-page.layout-page",
+      "inversedBy": "services_lists"
+    }
+  }
+}

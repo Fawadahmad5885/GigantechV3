@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_input_options",
+  "info": {
+    "displayName": "about Us Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": false
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

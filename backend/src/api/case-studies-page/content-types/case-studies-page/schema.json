@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies_pages",
+  "info": {
+    "singularName": "case-studies-page",
+    "pluralName": "case-studies-pages",
+    "displayName": "Case Studies Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "case_studies_hero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case-studies-section.case-studies-section"
+    },
+    "case_study_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study-card.case-study-card",
+      "mappedBy": "case_studies_page"
+    },
+    "contact_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-section.contact-section"
+    }
+  }
+}

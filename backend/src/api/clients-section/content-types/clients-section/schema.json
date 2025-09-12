@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients_sections",
+  "info": {
+    "singularName": "clients-section",
+    "pluralName": "clients-sections",
+    "displayName": "Clients Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Client": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.client-card"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

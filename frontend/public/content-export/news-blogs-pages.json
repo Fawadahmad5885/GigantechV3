@@ -1,0 +1,531 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+      "createdAt": "2025-07-21T11:28:13.677Z",
+      "updatedAt": "2025-07-24T08:18:36.208Z",
+      "publishedAt": "2025-07-24T08:18:36.284Z",
+      "news_blogs_and_event": {
+        "id": 7,
+        "documentId": "obs8bn239949n0j0u436qbt8",
+        "title": "What’s New at Gigantech",
+        "description": "We love reading, researching, and writing a lot of stuff about technology, current trends, and other technology-related things. Explore our writings where we have shared our technological insights.",
+        "createdAt": "2025-07-14T07:57:03.327Z",
+        "updatedAt": "2025-08-20T15:39:48.872Z",
+        "publishedAt": "2025-08-20T15:39:48.885Z",
+        "image": {
+          "id": 167,
+          "documentId": "pac87bw2e2yy678ph1h3sowu",
+          "name": "custom-software.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1263,
+          "height": 1263,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_custom-software.jpg",
+              "hash": "thumbnail_custom_software_b37894096e",
+              "ext": ".jpg",
+              "mime": "image/png",
+              "path": null,
+              "width": 156,
+              "height": 156,
+              "size": 12.64,
+              "sizeInBytes": 12636,
+              "url": "/uploads/thumbnail_custom_software_b37894096e.jpg"
+            },
+            "small": {
+              "name": "small_custom-software.jpg",
+              "hash": "small_custom_software_b37894096e",
+              "ext": ".jpg",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 500,
+              "size": 97.19,
+              "sizeInBytes": 97190,
+              "url": "/uploads/small_custom_software_b37894096e.jpg"
+            },
+            "medium": {
+              "name": "medium_custom-software.jpg",
+              "hash": "medium_custom_software_b37894096e",
+              "ext": ".jpg",
+              "mime": "image/png",
+              "path": null,
+              "width": 750,
+              "height": 750,
+              "size": 198.38,
+              "sizeInBytes": 198375,
+              "url": "/uploads/medium_custom_software_b37894096e.jpg"
+            },
+            "large": {
+              "name": "large_custom-software.jpg",
+              "hash": "large_custom_software_b37894096e",
+              "ext": ".jpg",
+              "mime": "image/png",
+              "path": null,
+              "width": 1000,
+              "height": 1000,
+              "size": 323.32,
+              "sizeInBytes": 323321,
+              "url": "/uploads/large_custom_software_b37894096e.jpg"
+            }
+          },
+          "hash": "custom_software_b37894096e",
+          "ext": ".jpg",
+          "mime": "image/png",
+          "size": 99.05,
+          "url": "/uploads/custom_software_b37894096e.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-11T14:08:07.713Z",
+          "updatedAt": "2025-08-20T15:39:47.572Z",
+          "publishedAt": "2025-07-11T14:08:07.715Z"
+        }
+      },
+      "news_items": [
+        {
+          "id": 101,
+          "documentId": "pzlfpjsy3sb4dfh1ge4kheyl",
+          "title": "Using Strapi Data Without Running the Backend (Next.js + Static Export)",
+          "slug": "ai-in-travel-industry-use-cases-example-and-benefits",
+          "type": "blog",
+          "author": "Fawad Ahmad",
+          "date": "2025-07-10",
+          "content": "When building with Strapi and Next.js, you usually fetch content from the Strapi backend using API calls. That works great — but what if you don't want to keep the Strapi server running all the time?\n\nThis was the exact situation I faced. I needed my Next.js frontend to work with the same Strapi content, but without making live API requests.\n\n## The Challenge\n\nI wanted my website to load content even when the Strapi backend was **not running**. That meant I needed a way to:\n\n- Export all Strapi content (collections, single types, etc.)\n- Save related media files (images, uploads)\n- Use this exported data in my frontend instead of calling the Strapi API\n\n## The Solution\n\nWith the help of ChatGPT, I wrote a small **export script** inside my Strapi project:\n\n*backend/src/scripts/export-content.js*\n\nRun using:\nnode export-content.js\n\nThe script does two things:\n1. Exports all Strapi data into JSON files inside:\n*frontend/public/content-export/*\n\n2. Copies all media files into:\n*frontend/public/content-export/uploads*\n\n\n## Using Static Data in Next.js\n\nInstead of fetching from the Strapi API, I updated my frontend helper:\n\n*frontend/src/lib/api.js*\n\nThe fetchStrapiData() function was modified to read from the exported JSON files. Now, the website loads data instantly without hitting the backend.\n\n## Why This Is Useful\n\n- No need to run Strapi in production if content doesn't change often\n\n- Faster load times (static files served directly)\n\n- Great for hosting on platforms like Vercel or Netlify\n\n- Still flexible: you can re-run the export script anytime content updates\n\n## Final Thoughts\nThis approach gave me the best of both worlds:\n\n- A powerful CMS (Strapi) for content management\n- A fast, static frontend (Next.js) for deployment\n\nIf you’re using Strapi + Next.js and want to avoid running the backend all the time, this method is simple and effective. Just export, save, and serve your content as static JSON. 🚀\n",
+          "createdAt": "2025-07-11T08:45:50.526Z",
+          "updatedAt": "2025-09-08T09:08:24.580Z",
+          "publishedAt": "2025-09-08T09:08:24.620Z",
+          "description": "Learn how to use Strapi content in a Next.js app without running the backend. Export data and media as static files for faster, simpler deployments.",
+          "readminutes": 4,
+          "image": {
+            "id": 164,
+            "documentId": "skfmubiurn3hesv4fny6iygx",
+            "url": "/uploads/Chatbots_0bd37d5e4b.jpg",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Chatbots.jpg",
+                "hash": "thumbnail_Chatbots_0bd37d5e4b",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 138,
+                "size": 9.75,
+                "sizeInBytes": 9748,
+                "url": "/uploads/thumbnail_Chatbots_0bd37d5e4b.jpg"
+              },
+              "large": {
+                "name": "large_Chatbots.jpg",
+                "hash": "large_Chatbots_0bd37d5e4b",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 562,
+                "size": 59.23,
+                "sizeInBytes": 59230,
+                "url": "/uploads/large_Chatbots_0bd37d5e4b.jpg"
+              },
+              "medium": {
+                "name": "medium_Chatbots.jpg",
+                "hash": "medium_Chatbots_0bd37d5e4b",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 38.53,
+                "sizeInBytes": 38533,
+                "url": "/uploads/medium_Chatbots_0bd37d5e4b.jpg"
+              },
+              "small": {
+                "name": "small_Chatbots.jpg",
+                "hash": "small_Chatbots_0bd37d5e4b",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 281,
+                "size": 22.5,
+                "sizeInBytes": 22504,
+                "url": "/uploads/small_Chatbots_0bd37d5e4b.jpg"
+              }
+            }
+          }
+        },
+        {
+          "id": 103,
+          "documentId": "s2t26pcu1nwbcyyx5jvscl5k",
+          "title": "Which LLM Really Handles Complex 3D Coding? A Stress Test You Won’t See in Demos",
+          "slug": "which-llm-really-handles-complex-3-d-coding-a-stress-test-you-won-t-see-in-demos",
+          "type": "blog",
+          "author": "Dr Mukhtiar Ahmad",
+          "date": "2025-08-22",
+          "content": "I gave GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1), and Amazon Kiro the same complex coding task: a 3D neural network simulation in Three.js. Only one model came close to production-level quality.\n\n\n##  Why I Ran This Experiment\nMost LLM reviews show simple tasks: “write a landing page” or “generate a Python script.” But those don’t really tell us how these models behave under **real production-like complexity.**\n*I wanted to see how these models perform when asked to tackle a tightly constrained, visually verifiable, and mathematically precise coding challenge — one where mistakes are immediately obvious.*\nSo I wrote a **prompt about 1,500 tokens long,** spelling out every requirement of a **3D neural network visualization in Three.js.**\n![Dashboard](/blogs-images/3d-coding-challenge.png)\n\nThe article below includes only a structured summary of those requirements (for readability). But make no mistake: the actual spec was meticulous, covering exact math formulas, timing phases, firing rules, and strict boundary enforcement.\n## The Benchmark Problem\n\n### Task (summary of original prompt):\n\nCreate a professional 3D neural network visualization using **Three.js** that demonstrates dynamic shape morphing, neural activity simulation, interactive camera controls, and perfect geometric containment of all neural elements.\n\n---\n\n## Highlights of the Requirements\n\n### 🔹 Shapes & Morphing\n- Cycle through 5 shapes in strict order: **Sphere → Cone → Cube → Pyramid → Cylinder**  \n- Smooth morphing transitions, infinite loop  \n\n### 🔹 Neurons & Connections\n- Exactly **1,200 neurons** (white wireframe spheres)  \n- At least **3 connections per neuron**, proximity-based  \n- **Zero tolerance** for neurons or links outside the shape boundary  \n\n### 🔹 Activity Simulation\n- Random neurons fire every **150ms (~1.5%)**\n- Red “meteor effect” travels along links.\n- Destination neuron glows red and scales 3x for 800ms, then resets.\n### 🔹Camera & Interaction\n- Interactive rotation with mouse; gentle auto-rotation fallback.\n- Cinematic zoom-in (3s) and zoom-out (3s), synced with morph transitions.\n- Smooth easing, no jerky movements.\n\n### 🔹Performance\n- 60fps target.\n- Memory-efficient cleanup of effects.\n- Responsive resizing.\n- Single HTML file with Three.js via CDN.\n\nIn short: **a professional-grade animation system** that would expose weaknesses in any model’s reasoning or code structure.\n\n## The Test Setup\n\nI tested five LLMs:\n\n- **Chat interfaces:** GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1)  \n- **Software development environment:** Amazon Kiro  \n\nEvery model received the same requirements. I evaluated them on **accuracy, containment, animation quality, and refinement potential**.\n\n---\n\n## Results by Model\n\n### GPT-5 (Chat UI)\n\nGPT-5 generated workable code, but with serious issues:\n\n- Neurons consistently **leaked outside shape boundaries**.  \n- Connections were extended incorrectly.  \n- Neuron firing lacked polish and synchronization.  \n- Even with multiple refinement prompts, shapes stayed messy.  \n\nUsing **GPT-5 Agents** (longer reasoning) prolonged the process but didn’t fix alignment errors — cones inverted, pyramids misplaced, neurons still out of bounds.\n\n**Verdict:** Ambitious, but ultimately unreliable for this kind of strict geometry.\n\n### Claude Sonnet 4 (Chat UI)\n\nClaude performed better than GPT-5:\n\n- More structured output and closer adherence to requirements.  \n- Shapes looked cleaner, firing slightly more naturally.  \n\nBut…\n\n- Neurons still escaped boundaries.  \n- Links didn’t always update correctly.  \n- After 5–7 refinement prompts, things improved, but never reached spec.  \n\n**Verdict:** Better discipline than GPT-5, but still not production-ready.  \n\n---\n\n### Gemini Flash 2.5 (Chat UI)\n\nWhen given the prompt, Gemini replied with:\n\n*I am unable to generate a complete and functional HTML file with the complex Three.js code you’ve requested. My capabilities are limited to providing information and generating text or images, and I cannot create a fully-coded, executable web page.*\n\n**Verdict:** Refreshingly honest, but ultimately a non-result for this test.\n### DeepSeek DeepThink (R1) (Chat UI)\n\nMarketed as a “thinking” model, DeepSeek showed the same execution gaps as GPT and Claude:\n\n- Out-of-bounds neurons.  \n- Misaligned links.  \n- Firing animations lacked precision.\n  \nReasoning ability didn’t translate into technical correctness here.  \n\n**Verdict:** Same flaws, different branding.  \n\n---\n\n### Amazon Kiro (Software Dev Environment)\n\nThis was the surprise.  \n\nUnlike the chat UIs, Kiro didn’t just dump code. It followed a structured development workflow:\n\n1. Converted my long prompt into a Markdown requirements doc.  \n2. Translated that into a design specification.  \n3. Broke it down into a task list.  \n4. Then generated the implementation.  \n\nThe first attempt missed a few requirements. But when I asked:  \n\n> Are you sure you implemented all the requirements?  \n\nKiro did something no other model did:  \n\n- It checked its work against the requirements list.  \n- Found the gaps.  \n- Fixed them in the next iteration with a single prompt.  \n\nThe final result hit about **95% of the full spec**.  \n\n**Verdict:** The only LLM-based system in this test that was able to implement all the requirements correctly.  \n## Final Rankings  \n\n🥇 **Amazon Kiro** → Clear winner. Met nearly all requirements with minimal prompting.  \n🥈 **Claude Sonnet 4.0** → Strong attempt, but too much manual refinement needed.  \n🥉 **GPT-5** → Ambitious but messy and inconsistent.  \n🎭 **DeepSeek Think (R1)** → Same flaws as GPT/Claude, despite “reasoning” claims.  \n🚫 **Gemini Flash 2.5** → Did not attempt implementation.  \n\n---\n\n## Takeaways  \n\n1. **Long, detailed prompts expose model weaknesses.**  \n   The 1,500-token spec I provided was deliberately precise, and most models struggled to stay within those constraints.  \n\n2. **Chat UIs aren’t enough for production-level tasks.**  \n   GPT, Claude, DeepSeek, and Gemini behaved like “helpers.” They don’t enforce discipline unless you spoon-feed corrections for hours.  \n\n3. **Requirement verification is the difference-maker.**  \n   Amazon Kiro stood out because it didn’t just generate code — it cross-checked requirements, found gaps, and corrected them. That’s what made it succeed where others failed.  \n\n---\n\n## Closing Thoughts  \n\nThis experiment convinced me of something bigger:  \n\nFuture LLMs won’t just be about being “smarter.” They’ll need to adopt structured engineering workflows — breaking problems down, checking against specs, and iterating systematically.  \n\nBecause in real-world coding, intelligence without verification isn’t enough.  \n\nAnd for now, **Kiro is the only LLM-based system I’ve tested that was able to implement all the requirements correctly.**  \n\n---\n\n**Note:** Some of the content is AI-generated.  \n\n",
+          "createdAt": "2025-07-11T11:48:10.779Z",
+          "updatedAt": "2025-09-08T09:11:11.427Z",
+          "publishedAt": "2025-09-08T09:11:11.460Z",
+          "description": "Testing GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek R1, and Amazon Kiro on a complex 3D neural network task in Three.js—only Kiro delivered production-ready results.",
+          "readminutes": 4,
+          "image": {
+            "id": 163,
+            "documentId": "ka2ny8ll4z795ym5aaoxqu4g",
+            "url": "/uploads/Chatbots_60e5e966f7.jpg",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Chatbots.jpg",
+                "hash": "thumbnail_Chatbots_60e5e966f7",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 208,
+                "height": 156,
+                "size": 23.84,
+                "sizeInBytes": 23840,
+                "url": "/uploads/thumbnail_Chatbots_60e5e966f7.jpg"
+              },
+              "small": {
+                "name": "small_Chatbots.jpg",
+                "hash": "small_Chatbots_60e5e966f7",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 375,
+                "size": 88.37,
+                "sizeInBytes": 88372,
+                "url": "/uploads/small_Chatbots_60e5e966f7.jpg"
+              }
+            }
+          }
+        },
+        {
+          "id": 58,
+          "documentId": "qfv4x7z7o6pfuq5rwe484fee",
+          "title": "Document Processing: Experience and Learnings",
+          "slug": "real-impact-with-solid-tech",
+          "type": "event",
+          "author": "John Smith",
+          "date": "2025-09-25",
+          "content": "## 🧪 Project Overview\n\n![quattro research logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_placeholder_image.png/600px-Logo_placeholder_image.png)\n\nFounded in **2004**, **quattro research** develops intuitive software that empowers digital scientific workflows. Their **Laboratory Information Management Systems (LIMS)** — such as **quattro/CM**, **quattro/LJ**, and **quattro/BR** — manage and analyze complex chemical and biological data.\n\n---\n\n![Team Collaboration](https://images.unsplash.com/photo-1632179002215-f5c8d5dcf35b)\n\nTo scale quickly and meet growing client demand, quattro research partnered with **unicrew** to strengthen their engineering team with skilled developers who could integrate seamlessly and boost project velocity.\n\n---\n\n## 🚧 Key Challenges\n\n![Challenges](https://images.unsplash.com/photo-1573164713347-df1e1f69a3f2)\n\n- **Scalability Requirements** – Needed to scale fast without lowering code quality.\n- **Complex UI Needs** – Required a responsive UI for large molecular datasets.\n- **Scientific Data Presentation** – Flexible visualization in dynamic grids and forms.\n- **Modern Security Protocols** – Needed secure access management (OAuth, JWT).\n- **High-Performance Rendering** – For complex molecule structure visualization.\n\n---\n\n## ✅ Solution\n\n### 🔹 React-Based UI\n\n![React UI](https://images.unsplash.com/photo-1581091012184-5c2bca6f3bb6)\n\nDesigned and implemented a performant, intuitive React frontend for handling complex molecule data structures.\n\n---\n\n### 🔹 Configurable Data Framework\n\n![Grid System](https://images.unsplash.com/photo-1645051915681-183d5f30ef0a)\n\nDeveloped a flexible framework allowing scientists to customize data views using dynamic **grids** and **forms**.\n\n---\n\n### 🔹 Secure Authentication\n\n![Security](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nIntegrated **OAuth** and **JWT** for robust and modern authentication & authorization standards.\n\n---\n\n### 🔹 Molecule Visualization\n\n![Molecule Viewer](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nDelivered advanced visualization tools for rendering large and complex molecule structures efficiently.\n\n---\n\n## 👥 Collaboration Snapshot\n\n![Unicrew Team](https://images.unsplash.com/photo-1581091870622-df42a3f9808b)\n\n**unicrew** assembled a full-stack development team with expertise in:\n- `.NET`, `Java`, `PHP`, `Laravel`\n- `JavaScript`, `React`, `Vue`\n\nThey worked in **agile sprints** alongside quattro research’s internal team to maintain alignment, speed, and flexibility.\n\n---\n\n## 🎯 Results\n\n![Success](https://images.unsplash.com/photo-1581093588401-99a6f43db2a9)\n\n- **⚡ Faster Development** – Accelerated product delivery timelines.\n- **🎨 Better Usability** – UI tailored for scientific users.\n- **🔐 Improved Security** – OAuth and JWT integration.\n- **🔬 Enhanced Visualization** – Clarity in molecule data exploration.\n- **🤝 Ongoing Partnership** – Sustained collaboration with quattro research.\n\n---\n\n> _\"unicrew's developers integrated seamlessly with our team, demonstrating professionalism and a deep understanding of our needs. Their contributions have been invaluable.\"_  \n> — **Dr. Bernhard Schirm**, Managing Director\n\n[🔗 View Full Review](https://example.com/review)\n\n---\n\n## 🛠 Related Services\n\n- ✅ Dedicated Software Development Teams  \n- ✅ White Label Web Development  \n- ✅ Legacy Software Modernization\n",
+          "createdAt": "2025-07-11T08:42:46.052Z",
+          "updatedAt": "2025-08-20T11:59:04.331Z",
+          "publishedAt": "2025-08-20T11:59:04.346Z",
+          "description": "Is Android 15 released?  Various developer previews and beta versions of Android 15 have been released so far. ",
+          "readminutes": null,
+          "image": {
+            "id": 156,
+            "documentId": "t57pbuvdfho6u9bn7i6fhuzf",
+            "url": "/uploads/news2_3c6c533a21.jpg",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_news2.jpg",
+                "hash": "thumbnail_news2_3c6c533a21",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 128,
+                "size": 47.44,
+                "sizeInBytes": 47439,
+                "url": "/uploads/thumbnail_news2_3c6c533a21.jpg"
+              },
+              "small": {
+                "name": "small_news2.jpg",
+                "hash": "small_news2_3c6c533a21",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 261,
+                "size": 172.76,
+                "sizeInBytes": 172759,
+                "url": "/uploads/small_news2_3c6c533a21.jpg"
+              },
+              "medium": {
+                "name": "medium_news2.jpg",
+                "hash": "medium_news2_3c6c533a21",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 392,
+                "size": 368.6,
+                "sizeInBytes": 368602,
+                "url": "/uploads/medium_news2_3c6c533a21.jpg"
+              },
+              "large": {
+                "name": "large_news2.jpg",
+                "hash": "large_news2_3c6c533a21",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 523,
+                "size": 619.66,
+                "sizeInBytes": 619664,
+                "url": "/uploads/large_news2_3c6c533a21.jpg"
+              }
+            }
+          }
+        },
+        {
+          "id": 57,
+          "documentId": "expnrtf2v1e9su6ymbk1uxyg",
+          "title": "BLA delivers quality according to world standards",
+          "slug": "this-new-ide-from-google-is-an-absolute-game-changer",
+          "type": "news",
+          "author": "John Smith",
+          "date": "2025-07-16",
+          "content": "## What’s new with Android 15?\nAndroid 15 introduces enhanced privacy controls, new APIs for better performance and user experience, and advanced camera features like **Low Light Boost**. It also deprecates older technologies like **WebSQL**, making way for more modern solutions like **IndexedDB**.\n## Is Android 15 released?\nVarious developer previews and beta versions of Android 15 have been released so far. The final launch is expected to occur sometime in the **fall of 2024**.\n\n## How does Android 15 address app compatibility and backward compatibility issues?\nAndroid 15 includes several measures to ensure app compatibility and backward compatibility, such as:\n- Detailed documentation on behavior changes\n- New feature support\n- Tools like the **Android Compatibility Test Suite (CTS)**\n\nThese ensure that apps remain functional and performant on the new platform while still supporting older versions where necessary.\n\n## What are the benefits of the improved camera APIs in Android 15 for app developers?\nThe improved camera APIs provide:\n- Greater control over camera hardware\n- Real-time effects\n- Improved HDR processing\n- Better integration with machine learning algorithms\n\nThese capabilities help developers create advanced camera experiences like:\n\n- Augmented reality applications\n- Advanced photo/video editing features\n## How does Android 15 improve app performance on older devices?\nAndroid 15 offers:\n- Optimized memory management\n- Enhanced rendering pipelines\n\nThese improvements ensure apps run smoothly even on devices with limited hardware resources.\n\n---\n\n## References\n\n- [First Android 15 Developer Preview](https://android-developers.googleblog.com/2024/02/first-developer-preview-android15.html)\n- [Android 15 Features Overview](https://developer.android.com/about/versions/15/features)\n- [Android Developers Blog](https://android-developers.googleblog.com)\n- [Android Developers Official Site](https://developer.android.com)\n",
+          "createdAt": "2025-07-11T12:23:49.379Z",
+          "updatedAt": "2025-08-20T11:58:44.392Z",
+          "publishedAt": "2025-08-20T11:58:44.406Z",
+          "description": "ISTQB (International Software Testing Qualifications Board) is a globally recognized organization that provides standardized certifications for software testers.",
+          "readminutes": 8,
+          "image": {
+            "id": 166,
+            "documentId": "j6dmgyoz5rygwyyu4tyav4ns",
+            "url": "/uploads/representation_user_experience_interface_design_1200x800_fedb475fc5.webp",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_representation-user-experience-interface-design-1200x800.webp",
+                "hash": "thumbnail_representation_user_experience_interface_design_1200x800_fedb475fc5",
+                "ext": ".webp",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 76,
+                "size": 33.78,
+                "sizeInBytes": 33782,
+                "url": "/uploads/thumbnail_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+              },
+              "small": {
+                "name": "small_representation-user-experience-interface-design-1200x800.webp",
+                "hash": "small_representation_user_experience_interface_design_1200x800_fedb475fc5",
+                "ext": ".webp",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 155,
+                "size": 128.58,
+                "sizeInBytes": 128578,
+                "url": "/uploads/small_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+              },
+              "medium": {
+                "name": "medium_representation-user-experience-interface-design-1200x800.webp",
+                "hash": "medium_representation_user_experience_interface_design_1200x800_fedb475fc5",
+                "ext": ".webp",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 232,
+                "size": 283.66,
+                "sizeInBytes": 283661,
+                "url": "/uploads/medium_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+              },
+              "large": {
+                "name": "large_representation-user-experience-interface-design-1200x800.webp",
+                "hash": "large_representation_user_experience_interface_design_1200x800_fedb475fc5",
+                "ext": ".webp",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 309,
+                "size": 498.89,
+                "sizeInBytes": 498886,
+                "url": "/uploads/large_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+              }
+            }
+          }
+        },
+        {
+          "id": 102,
+          "documentId": "oe7l6ys9zwzkij9fp1ckmfvg",
+          "title": "Parsing Excel Files at Scale with Docling",
+          "slug": "parsing-excel-files-at-scale-with-docling",
+          "type": "blog",
+          "author": "Muhammad Hashir Saikhani",
+          "date": "2025-09-08",
+          "content": "## Executive Summary\n\nExcel is one of the most widely used tools for managing and sharing data. Yet, extracting structured and meaningful information from `.xlsx` files is often harder than it seems. Our team set out to find a solution that could reliably parse **tables and text together**, maintain **context and formatting**, and work without relying on **paid APIs or external services**.  \n\nAfter exploring several libraries and approaches, we discovered **Docling**, a solution that balanced flexibility, scalability, and reliability, making it the best fit for our needs.\n\n---\n\n![Excel to Structured Output](general.png)\n\n---\n\n## Challenges\n\nAt first glance, parsing Excel sounds straightforward. But when we started working with real-world files, we quickly ran into roadblocks:\n\n- **Different table types**: Some files used native Excel tables, while others had only simple tabular ranges. Most tools could handle one type but not both.  \n- **Context loss**: In many cases, tables were surrounded by important explanatory text. Traditional libraries ignored this, leaving us with incomplete data.  \n- **Table boundaries**: Detecting where a table started and ended became tricky, especially when multiple tables existed in the same sheet.  \n- **Maintenance burden**: The more logic we added to patch gaps in existing libraries, the more brittle and complex the system became.  \n- **Scalability issues**: Our solution had to process thousands of files, not just a handful. Performance and reliability mattered.  \n\nThese challenges motivated us to step back and rethink our approach.\n\n---\n\n## Motivation\n\nOur motivation was simple but clear:  \n\nWe wanted to build a **robust, free, and local-first tool** that could parse Excel files while **retaining both tables and context**. Specifically, the tool needed to:  \n\n- Parse **native tables** as well as **simple tabular ranges**.  \n- Extract **tables together with text**, not in isolation.  \n- Preserve **formatting and relationships** between data and notes.  \n- Append **text alongside tables** when needed for clarity.  \n- Avoid dependency on **paid APIs** or complex external setups.  \n\nThis vision kept us grounded as we experimented with different methods.\n\n---\n\n##  Methods We Tried\n\n### 1. **Pandas**\n- **Pros:**\n  - Widely known and very easy to use.\n  - Great for loading simple tables into DataFrames.  \n- **Cons:**\n  - Could not detect **native Excel tables**.\n  - Required heavy **custom table-boundary logic**.\n  - Failed to capture surrounding context.  \n\n**Verdict:** Solid for basic jobs but not enough for complex parsing.\n\n---\n\n### 2. **OpenPyXL**\n- **Pros:**\n  - Reads **native Excel tables** and cell text.  \n- **Cons:**\n  - Missed **simple tabular ranges**.  \n  - Still demanded extra parsing logic to unify outputs.  \n\n**Verdict:** A step up from Pandas, but still incomplete.\n\n---\n\n### 3. **LlamaIndex**\n- **Pros:**\n  - Provides an **end-to-end pipeline**: parsing + querying.  \n- **Cons:**\n  - Required **two API keys** (Llama Parse + OpenAI).  \n  - Depended on **paid APIs**, against our free/local requirement.  \n\n**Verdict:** Too costly and external for our workflow.\n\n---\n\n### 4. **Marker**\n- **Pros:**\n  - Offered both **LLM-powered** and **non-LLM** modes.  \n  - The LLM version delivered impressive parsing results.  \n- **Cons:**\n  - LLM mode consumed **too many OpenAI tokens**, driving up costs.  \n  - Non-LLM mode often **hallucinated tags** and produced errors.  \n  - Required significant **post-processing**.  \n\n**Verdict:** Interesting experiment, but unstable and costly.\n\n---\n\n### 5. **Docling (Final Choice)**\n- **Pros:**\n  - Strong parsing engine capable of handling **tables + text**.  \n  - Multiple export options: **Dict, HTML, Text, Element Nodes**, and more.  \n  - Local-first, no reliance on external APIs.  \n- **Cons:**\n  - Export formats each had small quirks.  \n- **Solution:**\n  - We standardized on the **`dict` export** for flexibility.  \n  - Added custom logic to handle quirks and standardize outputs.  \n\n**Verdict:** Flexible, scalable, and powerful enough for production.\n\n---\n\n## Example Applications\n\nDocling can be applied in real-world scenarios such as:  \n\n- **Financial reporting**: Parsing monthly Excel reports into structured data for automated dashboards.  \n- **Survey analysis**: Extracting tabular responses along with explanatory notes for research insights.  \n- **Operational logs**: Capturing tables from Excel logs while retaining context from comments and footnotes.  \n- **Data migration**: Converting legacy Excel-based datasets into standardized formats for new systems.  \n- **Compliance audits**: Extracting both tables and supporting text from Excel-based audit reports for validation.  \n\n---\n\n## Business Impact\n\nSwitching to Docling delivered clear results:  \n\n- **50–70% reduction in engineering effort**: Developers no longer needed to maintain complex parsing logic.  \n- **Higher accuracy**: Tables and surrounding notes were consistently extracted, reducing manual corrections.  \n- **Cost savings**: Avoiding paid APIs removed recurring expenses.  \n- **Significant time savings**: For example, processing a batch of 500 Excel reports that previously required multiple analysts now takes a few hours on a single machine.  \n- **Improved decision-making**: Teams gained quicker access to accurate, structured data for reporting and analysis.  \n\n---\n\n## Performance Results\n\nWe also measured Docling’s performance against our needs:  \n\n**Test Case 1 – Cell values as strings**  \n![Performance Results 1](/blogs-images/excel-blog-performance1.png)\n\n**Test Case 2 – Cell values as floats**  \n![Performance Results 2](/blogs-images/excel-blog-performance2.png)\n\n---\n\n## Conclusion\n\nParsing Excel at scale is harder than it looks, most tools solve one piece of the puzzle but fall short elsewhere. Through trial and error, we found **Docling** to be the most **complete and reliable solution**, balancing accuracy, scalability, and flexibility.  \n\nBy adopting Docling, organizations can **streamline their data workflows, reduce costs, and unlock more value** from Excel-based information at scale.  ",
+          "createdAt": "2025-09-08T08:52:01.821Z",
+          "updatedAt": "2025-09-08T09:09:47.890Z",
+          "publishedAt": "2025-09-08T09:09:47.910Z",
+          "description": "How we solved the challenges of parsing complex Excel files at scale and why Docling proved to be the most reliable and scalable solution.",
+          "readminutes": 4,
+          "image": {
+            "id": 231,
+            "documentId": "qwcim60y7alckbc6ljpd48mu",
+            "url": "/uploads/Blockchain_50_2132bc9bf3.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Blockchain (50).png",
+                "hash": "thumbnail_Blockchain_50_2132bc9bf3",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 138,
+                "size": 18.7,
+                "sizeInBytes": 18699,
+                "url": "/uploads/thumbnail_Blockchain_50_2132bc9bf3.png"
+              },
+              "small": {
+                "name": "small_Blockchain (50).png",
+                "hash": "small_Blockchain_50_2132bc9bf3",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 281,
+                "size": 43.65,
+                "sizeInBytes": 43651,
+                "url": "/uploads/small_Blockchain_50_2132bc9bf3.png"
+              },
+              "medium": {
+                "name": "medium_Blockchain (50).png",
+                "hash": "medium_Blockchain_50_2132bc9bf3",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 81.48,
+                "sizeInBytes": 81480,
+                "url": "/uploads/medium_Blockchain_50_2132bc9bf3.png"
+              },
+              "large": {
+                "name": "large_Blockchain (50).png",
+                "hash": "large_Blockchain_50_2132bc9bf3",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 562,
+                "size": 116.27,
+                "sizeInBytes": 116271,
+                "url": "/uploads/large_Blockchain_50_2132bc9bf3.png"
+              }
+            }
+          }
+        }
+      ],
+      "contact_section": {
+        "id": 7,
+        "documentId": "oufmpfk024nj9mtlu6me5t8i",
+        "createdAt": "2025-05-28T11:33:42.635Z",
+        "updatedAt": "2025-09-05T08:19:12.895Z",
+        "publishedAt": "2025-09-05T08:19:12.923Z",
+        "title": "Let’s Build Your Digital Success Story",
+        "description": "With decades of expertise and hundreds of future-ready solutions delivered globally, Gigantech combines technical mastery and industry insights to turn complex challenges into growth. Partner with a team trusted by enterprises worldwide—where technology meets innovation.",
+        "contactForm": {
+          "id": 7,
+          "Input": [
+            {
+              "id": 49,
+              "label": "First Name"
+            },
+            {
+              "id": 50,
+              "label": "Last Name"
+            },
+            {
+              "id": 51,
+              "label": "Email Address"
+            },
+            {
+              "id": 52,
+              "label": "Company Name"
+            },
+            {
+              "id": 53,
+              "label": "Country"
+            },
+            {
+              "id": 54,
+              "label": "How did you hear about us?"
+            },
+            {
+              "id": 55,
+              "label": "Which service interests you?"
+            },
+            {
+              "id": 56,
+              "label": "How can we help?"
+            }
+          ],
+          "inputOptions": [
+            {
+              "id": 31,
+              "label": "Advertisement",
+              "value": "Ads"
+            },
+            {
+              "id": 32,
+              "label": "Search Engine",
+              "value": "SE"
+            },
+            {
+              "id": 33,
+              "label": "Social Media",
+              "value": "SM"
+            },
+            {
+              "id": 34,
+              "label": "Email Marketing",
+              "value": "EM"
+            },
+            {
+              "id": 35,
+              "label": "Other",
+              "value": "Ot"
+            }
+          ],
+          "serviceTitles": [
+            {
+              "id": 37,
+              "title": "AI & ML Development"
+            },
+            {
+              "id": 38,
+              "title": "Cloud Engineering"
+            },
+            {
+              "id": 39,
+              "title": "Data Analytics."
+            },
+            {
+              "id": 40,
+              "title": "Web Development"
+            },
+            {
+              "id": 41,
+              "title": "Mobile App Development"
+            },
+            {
+              "id": 42,
+              "title": "ISO Certification"
+            }
+          ]
+        },
+        "footerSteps": {
+          "id": 7,
+          "firstStep": "An expert contacts you after having analyzed your requirements",
+          "secondStep": "If needed, we sign an NDA to ensure the highest privacy level",
+          "thirdStep": "We submit a comprehensive project proposal with estimates, timelines, CVs, etc."
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

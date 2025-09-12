@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_stories",
+  "info": {
+    "singularName": "about-story",
+    "pluralName": "about-stories",
+    "displayName": "About Story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "firstParagraph": {
+      "type": "text"
+    },
+    "secondParagraph": {
+      "type": "text"
+    }
+  }
+}

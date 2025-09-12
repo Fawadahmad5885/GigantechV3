@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_texts_services_short_titles",
+  "info": {
+    "displayName": "Services Short Titles"
+  },
+  "options": {},
+  "attributes": {
+    "shortTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

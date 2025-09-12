@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_case_studies_descriptions",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "industry": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "dStatus": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "string"
+    }
+  }
+}

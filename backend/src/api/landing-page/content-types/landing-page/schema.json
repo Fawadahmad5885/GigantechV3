@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "industries_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::industries-section.industries-section"
+    },
+    "contact_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-section.contact-section"
+    },
+    "news_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-item.news-item",
+      "mappedBy": "landing_page"
+    },
+    "hero_sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hero-section.hero-section",
+      "mappedBy": "landing_page"
+    },
+    "services_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::services-section.services-section"
+    },
+    "technologies_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::technologies-section.technologies-section"
+    },
+    "about_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-section.about-section"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology",
+      "mappedBy": "landing_page"
+    },
+    "clients_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::clients-section.clients-section"
+    },
+    "case_study_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study-card.case-study-card",
+      "mappedBy": "landing_page"
+    },
+    "case_studies_hero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case-studies-section.case-studies-section"
+    },
+    "news_blogs_and_event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::news-blogs-and-event.news-blogs-and-event"
+    },
+    "ai_technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ai-technology.ai-technology",
+      "mappedBy": "landing_page"
+    }
+  }
+}

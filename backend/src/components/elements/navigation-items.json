@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_navigation_items",
+  "info": {
+    "displayName": "NavigationItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "SectionId": {
+      "type": "text",
+      "required": false,
+      "unique": false
+    },
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "section",
+        "page"
+      ],
+      "required": true
+    }
+  }
+}

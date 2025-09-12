@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_choices",
+  "info": {
+    "singularName": "partner-choice",
+    "pluralName": "partner-choices",
+    "displayName": "Partner Choice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "partnerChoiceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

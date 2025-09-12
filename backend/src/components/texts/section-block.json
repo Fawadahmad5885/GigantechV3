@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_texts_section_blocks",
+  "info": {
+    "displayName": "Section Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "subSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "texts.text-desc"
+    },
+    "sectionParagraphs": {
+      "type": "text"
+    }
+  }
+}

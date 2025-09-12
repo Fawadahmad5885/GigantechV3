@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "layout_pages",
+  "info": {
+    "singularName": "layout-page",
+    "pluralName": "layout-pages",
+    "displayName": "Layout Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "industries_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::industries-list.industries-list",
+      "mappedBy": "layout_page"
+    },
+    "services_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::services-list.services-list",
+      "mappedBy": "layout_page"
+    },
+    "footer_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer-section.footer-section"
+    },
+    "header_section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header-section.header-section"
+    }
+  }
+}

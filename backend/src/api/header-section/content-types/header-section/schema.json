@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_sections",
+  "info": {
+    "singularName": "header-section",
+    "pluralName": "header-sections",
+    "displayName": "Header Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "navItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.navigation-items"
+    }
+  }
+}

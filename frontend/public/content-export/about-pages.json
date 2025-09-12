@@ -1,0 +1,261 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "documentId": "w3kw1mf7ufv1295izx5fa6da",
+      "createdAt": "2025-07-20T23:01:36.085Z",
+      "updatedAt": "2025-07-20T23:01:36.085Z",
+      "publishedAt": "2025-07-20T23:01:36.131Z",
+      "about_hero": {
+        "id": 15,
+        "documentId": "bta8qdv3t9a8t788ib6z7kuv",
+        "heading": "Advancing Technology to Unlock Value",
+        "description": "At Gigantech, we transform businesses through AI-powered, intelligent, and \nscalable technology solutions. Our expertise spans Artificial Intelligence, \nWeb & Mobile Applications, Cloud Platforms, and Digital Transformation, \nenabling organizations to innovate faster, operate smarter, and unlock \nsustainable growth.",
+        "subHeading": null,
+        "createdAt": "2025-05-28T11:56:54.113Z",
+        "updatedAt": "2025-09-04T08:11:25.259Z",
+        "publishedAt": "2025-09-04T08:11:25.347Z",
+        "Button": {
+          "id": 252,
+          "title": "Get Started",
+          "url": "contact"
+        },
+        "aboutHeroCard": [
+          {
+            "id": 455,
+            "title": "Our Mission",
+            "subtitle": null,
+            "description": "To advance technology that creates measurable value for businesses and people everywhere.",
+            "image": {
+              "id": 204,
+              "documentId": "s46jx6sdsndrzdtajxdjb3bz",
+              "url": "/uploads/mission_icon_b81f69a1ed.png"
+            }
+          },
+          {
+            "id": 456,
+            "title": "Our Vision",
+            "subtitle": null,
+            "description": "To be the trusted global partner for organizations seeking to stay ahead through AI, innovation, and future-ready\ntechnology.",
+            "image": {
+              "id": 205,
+              "documentId": "ih5udl0qrs44z91mc4dpfhba",
+              "url": "/uploads/vision_icon_6bc789af3f.png"
+            }
+          },
+          {
+            "id": 457,
+            "title": "Our Focus",
+            "subtitle": null,
+            "description": "We specialize in blending intelligence with innovation—building solutions \nthat are smart, secure, and scalable. From AI-driven automation to \nenterprise-grade platforms, our focus is on solving complex challenges with \npractical, business-ready technology.",
+            "image": {
+              "id": 206,
+              "documentId": "vpibsg7mfokgh91i6dcy1s8z",
+              "url": "/uploads/Blockchain_24_f9071b3931.png"
+            }
+          }
+        ]
+      },
+      "partner_choice": {
+        "id": 6,
+        "documentId": "xbcz20h6cdscxqxegtwwmzaw",
+        "heading": "Why we are the partner of choice for our clients",
+        "createdAt": "2025-05-28T12:15:58.642Z",
+        "updatedAt": "2025-09-04T08:56:26.689Z",
+        "publishedAt": "2025-09-04T08:56:26.713Z",
+        "partnerChoiceCard": [
+          {
+            "id": 458,
+            "title": "Partnerships That Last",
+            "subtitle": null,
+            "description": "We build long-term client relationships through \ntrust, value creation, and consistent delivery.",
+            "image": {
+              "id": 33,
+              "documentId": "ubm2mqkfi71vgd2n3aai9m6d",
+              "url": "/uploads/building_partnership_8c849394ff.png"
+            }
+          },
+          {
+            "id": 459,
+            "title": "Value Through Innovation ",
+            "subtitle": null,
+            "description": "Our expert engineers tackle challenging \nprojects, delivering solutions that make a real difference.",
+            "image": {
+              "id": 34,
+              "documentId": "fovmwmmpimcl2rcwdd1xovu9",
+              "url": "/uploads/create_value_aad636e211.png"
+            }
+          },
+          {
+            "id": 460,
+            "title": "Proven capabilities",
+            "subtitle": null,
+            "description": "From enterprise software to AI platforms, we design \nsolutions that improve safety, efficiency, and growth across industries.",
+            "image": {
+              "id": 35,
+              "documentId": "he53ldwy6wg7q6yabbew9r3j",
+              "url": "/uploads/proven_capability_a3681d39f1.png"
+            }
+          },
+          {
+            "id": 461,
+            "title": "Top Global Talent",
+            "subtitle": null,
+            "description": "Our teams include leading AI specialists, architects, \nand engineers with deep domain knowledge.",
+            "image": {
+              "id": 36,
+              "documentId": "fil2m4yuayo076vlji5mfndz",
+              "url": "/uploads/top_talent_17995ef219.png"
+            }
+          },
+          {
+            "id": 462,
+            "title": "Global Presence",
+            "subtitle": null,
+            "description": "With teams across North America, the UK, and the \nMiddle East, we offer seamless collaboration and time zone alignment.",
+            "image": {
+              "id": 37,
+              "documentId": "y8hycdmgj8f904v1gpxvmrf6",
+              "url": "/uploads/time_zone_6e343eb5e3.png"
+            }
+          },
+          {
+            "id": 463,
+            "title": "Experience You Can Trust ",
+            "subtitle": null,
+            "description": "Backed by over a decade of real-world project \ndelivery, we combine technical mastery with a client-first approach.",
+            "image": {
+              "id": 38,
+              "documentId": "e2g1u9k3j5or1cf40eog785i",
+              "url": "/uploads/experienced_team_68a8d1e8af.png"
+            }
+          }
+        ]
+      },
+      "about_story": {
+        "id": 9,
+        "documentId": "e70g1sphlmgwj3c60qlcn8z5",
+        "heading": "Our Story",
+        "subheading": null,
+        "firstParagraph": "Gigantech began with a vision to harness Artificial Intelligence as a true engine of transformation. From a small team of forward-thinkers, we have grown into a trusted global partner, helping organizations apply AI to solve complex challenges. Our early breakthroughs in automation, analytics, and safety-critical systems established us as leaders in industries such as rail and utilities, laying the foundation for broader innovation.",
+        "secondParagraph": "Today, we continue to expand into education, enterprise productivity, customer engagement, and Agriculture—always with AI at the core. Our platforms enable automated grading, personalized learning, intelligent collaboration, and seamless multi-platform support. By combining cutting-edge AI with practical applications, we empower businesses to accelerate digital transformation, enhance safety and compliance, improve productivity, and unlock new growth opportunities.",
+        "createdAt": "2025-05-28T12:17:02.478Z",
+        "updatedAt": "2025-09-04T08:08:53.520Z",
+        "publishedAt": "2025-09-04T08:08:53.572Z"
+      },
+      "contact_section": {
+        "id": 7,
+        "documentId": "oufmpfk024nj9mtlu6me5t8i",
+        "createdAt": "2025-05-28T11:33:42.635Z",
+        "updatedAt": "2025-09-05T08:19:12.895Z",
+        "publishedAt": "2025-09-05T08:19:12.923Z",
+        "title": "Let’s Build Your Digital Success Story",
+        "description": "With decades of expertise and hundreds of future-ready solutions delivered globally, Gigantech combines technical mastery and industry insights to turn complex challenges into growth. Partner with a team trusted by enterprises worldwide—where technology meets innovation.",
+        "contactForm": {
+          "id": 7,
+          "Input": [
+            {
+              "id": 49,
+              "label": "First Name"
+            },
+            {
+              "id": 50,
+              "label": "Last Name"
+            },
+            {
+              "id": 51,
+              "label": "Email Address"
+            },
+            {
+              "id": 52,
+              "label": "Company Name"
+            },
+            {
+              "id": 53,
+              "label": "Country"
+            },
+            {
+              "id": 54,
+              "label": "How did you hear about us?"
+            },
+            {
+              "id": 55,
+              "label": "Which service interests you?"
+            },
+            {
+              "id": 56,
+              "label": "How can we help?"
+            }
+          ],
+          "inputOptions": [
+            {
+              "id": 31,
+              "label": "Advertisement",
+              "value": "Ads"
+            },
+            {
+              "id": 32,
+              "label": "Search Engine",
+              "value": "SE"
+            },
+            {
+              "id": 33,
+              "label": "Social Media",
+              "value": "SM"
+            },
+            {
+              "id": 34,
+              "label": "Email Marketing",
+              "value": "EM"
+            },
+            {
+              "id": 35,
+              "label": "Other",
+              "value": "Ot"
+            }
+          ],
+          "serviceTitles": [
+            {
+              "id": 37,
+              "title": "AI & ML Development"
+            },
+            {
+              "id": 38,
+              "title": "Cloud Engineering"
+            },
+            {
+              "id": 39,
+              "title": "Data Analytics."
+            },
+            {
+              "id": 40,
+              "title": "Web Development"
+            },
+            {
+              "id": 41,
+              "title": "Mobile App Development"
+            },
+            {
+              "id": 42,
+              "title": "ISO Certification"
+            }
+          ]
+        },
+        "footerSteps": {
+          "id": 7,
+          "firstStep": "An expert contacts you after having analyzed your requirements",
+          "secondStep": "If needed, we sign an NDA to ensure the highest privacy level",
+          "thirdStep": "We submit a comprehensive project proposal with estimates, timelines, CVs, etc."
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

@@ -9,7 +9,7 @@ import { useEffect, useState, useRef } from "react";
 import { getStrapiMedia } from "../../../lib/api";
 export default function CaseStudies({ headerData, cards }) {
   const [showAll, setShowAll] = useState(false);
-  const [initialDisplayCount, setInitialDisplayCount] = useState(5);
+  const [initialDisplayCount, setInitialDisplayCount] = useState(6);
 
   const sortedCards = [...(cards || [])].sort((a, b) => {
     // Handle cases where order might be undefined (fallback to 0)
@@ -176,7 +176,7 @@ export default function CaseStudies({ headerData, cards }) {
           </div>
         </div>
 
-        {!showAll && cards.length > initialDisplayCount && (
+        {/* {!showAll && cards.length > initialDisplayCount && (
           <div className="text-center mt-8">
             <Link
               href="/case-studies"
@@ -188,7 +188,7 @@ export default function CaseStudies({ headerData, cards }) {
               <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );

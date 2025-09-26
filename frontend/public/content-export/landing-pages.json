@@ -3071,6 +3071,150 @@
               }
             }
           }
+        },
+        {
+          "id": 11,
+          "documentId": "qmutgf965cjoig5jrrtnvrxw",
+          "title": "AI-Powered Grading & Tutoring",
+          "category": "Education ",
+          "description": "Automates grading, creates personalized practice questions, and delivers 24/7 tutoring to boost teacher efficiency and student learning.",
+          "slug": "ai-powered-grading-and-tutoring",
+          "region": "Canada",
+          "caseStudyStatus": null,
+          "aboutClient": null,
+          "showOnTop": false,
+          "order": 8,
+          "content": "<div class=\"case-study-container\">\n\n<div class= \"case-study-card\">\n<div class= \"case-study-card-item\">\n\n <h4>Client challenge</h4> \n <p>Educators faced significant challenges with the time-consuming and often inconsistent manual grading of diverse question types, hindering their ability to provide timely and personalized feedback to students. The lack of efficient tools for generating tailored practice questions and offering on-demand tutoring further limited student learning and development. This created a bottleneck in educational processes, impacting both teacher productivity and student engagement.</p> \n</div>\n\n<div class= \"case-study-card-item\">\n\n <h4>Solution</h4> \n <p>We developed an AI-powered suite of applications that automates grading, generates personalized practice questions, and provides an intelligent tutoring chatbot. This comprehensive platform streamlines assessment workflows and enhances the learning experience through adaptive, on-demand support.</p>\n</div>\n\n<div class= \"case-study-card-item\">\n\n<h4>Benefits</h4>\n\n<ul>\n<li>Reduced teacher workload by automating diverse grading tasks.</li>\n<li>Provided consistent and justified feedback to students.</li>\n<li>Enabled personalized practice question generation based on performance.</li>\n<li>Offered 24/7 AI-powered tutoring support across subjects.</li>\n</ul>\n</div>\n\n</div>\n\n<div class=\"case-study-section\">\n<p>\nThe education sector faces increasing demands for personalized learning and efficient assessment. This project aimed to leverage AI to address these challenges, enhancing both educator productivity and student engagement. By automating repetitive tasks and providing tailored support, the solution sought to transform traditional learning and evaluation processes, making education more accessible and effective at scale.\n</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Background</h2>\n<p>The education industry often struggles with the labor-intensive and subjective nature of grading, leading to teacher burnout and inconsistent student feedback. Traditional methods also lack the agility to provide personalized learning paths or on-demand tutoring. These issues are compounded by the need to support various question formats, from short answers to complex essays and mathematical problems, across digital and scanned inputs.</p>\n<p>Existing systems frequently fail to offer detailed justifications for marks, leaving students without clear guidance on areas for improvement. Furthermore, the manual creation of tailored practice materials for individual student needs is time-consuming and difficult to scale. Stakeholders, including educators, students, and institutions, required a scalable solution to streamline assessment, offer targeted support, and improve overall learning outcomes.</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Executive Summary</h2>\n<p>The solution delivered an AI-driven platform encompassing auto-grading, personalized feedback, dynamic practice question generation, and an interactive tutoring chatbot. This comprehensive suite was implemented to automate assessment processes, provide detailed justifications for marks, and offer on-demand educational support. The system demonstrated grading consistency comparable to human evaluators, significantly reducing administrative burden for educators and enhancing the learning experience for students.</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Key Business Challenges</h2>\n<ul>\n<li><strong>Inefficient Manual Grading:</strong> Educators spent significant time on grading, diverting focus from teaching and student interaction.</li>\n<li><strong>Inconsistent Evaluation:</strong> Subjectivity in human grading led to variations in scores and feedback across different evaluators.</li>\n<li><strong>Lack of Personalized Feedback:</strong> Students often received generic feedback, hindering their understanding of specific areas for improvement.</li>\n<li><strong>Limited Practice Opportunities:</strong> Generating tailored practice questions for individual student needs was time-consuming and difficult.</li>\n<li><strong>Scalability Issues:</strong> Traditional tutoring and assessment methods struggled to scale to large student populations.</li>\n</ul>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Solution Overview</h2>\n<p>The solution is an AI-based suite of applications designed for the Art Tech field, offering auto-grading, a tutoring chatbot, lesson planning, and practice tests. The auto-grading system supports various question types (short, long, mathematical, essay) and input formats (digital, scanned). It generates marking rubrics from natural language descriptions or existing human-graded papers, allowing instructors to refine them.</p>\n<p>The platform ensures low latency, scalability, and complete data privacy through offline, production-grade LLM deployment powered by <a href=\"https://docs.vllm.ai/\">vLLM</a>. This enables high-throughput inference without relying on third-party APIs. It also provides multi-model support, allowing seamless integration with <a href=\"https://openai.com/\">OpenAI</a>, <a href=\"https://gemini.google/\">Gemini</a>, <a href=\"https://grok.com/\">Grok</a>, and locally hosted models to offer flexible and diverse AI capabilities.</p>\n<p>The tutoring chatbot functions as a teacher assistant, answering subject-related questions via various messaging channels (WhatsApp, Telegram, SMS, Web) and providing personalized explanations based on the student's skill level. This AI-based system receives questions, evaluates them, and offers detailed explanations, making it a valuable tool in the educational domain. Additionally, the system can generate practice questions in specific subjects and difficulty levels based on student performance, which are then auto-graded.</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Outcomes and Impact</h2>\n<ul>\n<li><strong>Reduced Teacher Workload:</strong> Significantly decreased time spent on grading, allowing educators to focus on teaching and student interaction.</li>\n<li><strong>Consistent Grading:</strong> Achieved grading variations well within the range of human evaluators across multiple subjects.</li>\n<li><strong>Personalized Feedback:</strong> Provided detailed justifications for marks awarded or deducted, along with actionable improvement suggestions.</li>\n<li><strong>Enhanced Learning:</strong> Enabled on-demand generation of personalized practice questions based on student performance and selected difficulty levels.</li>\n<li><strong>24/7 Tutoring Support:</strong> Offered scalable, AI-powered assistance for students across diverse subjects, improving access to help.</li>\n<li><strong>Data Privacy & Scalability:</strong> Ensured secure and high-throughput inference without reliance on third-party APIs, supporting large-scale deployment.</li>\n</ul>\n</div>\n\n</div>\n",
+          "createdAt": "2025-09-16T14:15:42.554Z",
+          "updatedAt": "2025-09-26T15:20:18.058Z",
+          "publishedAt": "2025-09-26T15:20:18.107Z",
+          "image": {
+            "id": 81,
+            "documentId": "nml52fp38ptycm83pjghyrj7",
+            "url": "/uploads/ai-education.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_about_us_image_f18869f2a8.jpg",
+                "hash": "thumbnail_about_us_image_f18869f2a8_148e674821",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 138,
+                "size": 41.67,
+                "sizeInBytes": 41665,
+                "url": "/uploads/ai-education.png"
+              },
+              "small": {
+                "name": "small_about_us_image_f18869f2a8.jpg",
+                "hash": "small_about_us_image_f18869f2a8_148e674821",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 281,
+                "size": 141.36,
+                "sizeInBytes": 141363,
+                "url": "/uploads/small_about_us_image_f18869f2a8_148e674821.jpg"
+              },
+              "medium": {
+                "name": "medium_about_us_image_f18869f2a8.jpg",
+                "hash": "medium_about_us_image_f18869f2a8_148e674821",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 286.31,
+                "sizeInBytes": 286312,
+                "url": "/uploads/ai-education.png"
+              },
+              "large": {
+                "name": "large_about_us_image_f18869f2a8.jpg",
+                "hash": "large_about_us_image_f18869f2a8_148e674821",
+                "ext": ".jpg",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 563,
+                "size": 466.15,
+                "sizeInBytes": 466153,
+                "url": "/uploads/ai-education.png"
+              }
+            }
+          }
+        },
+        {
+          "id": 13,
+          "documentId": "uznpu39x7wbs88vm3d1vut6o",
+          "title": "Smart Meeting Companion for Startup Teams",
+          "category": "Customer Support & Engagement",
+          "description": "An AI-powered meeting companion that automatically transcribes and extracts key decisions, blockers, and updates from meetings—creating a chronological product timeline, reducing miscommunication, and streamlining handovers for small development teams.",
+          "slug": "smart-meeting-companion-for-startup-teams",
+          "region": "USA",
+          "caseStudyStatus": "Ongoing",
+          "aboutClient": null,
+          "showOnTop": false,
+          "order": 10,
+          "content": "<div class=\"case-study-container\">\n\n<div class= \"case-study-card\">\n<div class= \"case-study-card-item\">\n\n <h4>Client challenge</h4> \n <p>Small startup development teams faced significant challenges with miscommunication and lost context due to minimal meeting documentation. This resulted in delays, incorrect development, and a lack of chronological traceability for critical technical decisions and product evolution.</p> \n</div>\n\n<div class= \"case-study-card-item\">\n\n <h4>Solution</h4> \n <p>We developed a smart meeting companion application designed to automatically document updates, decisions, technical discussions, blockers, and status chronologically for startup development teams.</p>\n</div>\n\n<div class= \"case-study-card-item\">\n\n<h4>Benefits</h4>\n\n<ul>\n<li>Reduces reliance on manual meeting notes and individual memory.</li>\n<li>Enhances team alignment and transparency across distributed teams.</li>\n<li>Streamlines retrospectives and developer handovers.</li>\n<li>Automates timely information sharing and diagram generation for stakeholders.</li>\n</ul>\n</div>\n\n</div>\n\n<div class=\"case-study-section\">\n<p>\nIn fast-paced startup environments, efficient communication and accurate documentation are paramount for successful product development. The inherent challenges of small teams and rapid iteration often lead to critical information being lost, hindering progress and increasing development costs. This creates a significant barrier to maintaining product integrity and accelerating time-to-market. Our solution addresses the urgent need for a systematic approach to capture and disseminate vital meeting intelligence, ensuring all stakeholders remain aligned and informed throughout the product lifecycle.\n</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Background</h2>\n<p>Small startup development teams typically operate with lean structures, often comprising only one to three developers. In such \"man-in-army\" setups, formal documentation processes are frequently minimal or non-existent, leading to significant operational inefficiencies.</p>\n<p>The primary challenge stemmed from the rapid pace of development combined with a lack of structured information capture. Critical technical decisions, evolving requirements, identified blockers, and project status updates were frequently lost or forgotten, resulting in miscommunication and incorrect development.</p>\n<p>This environment created a pressing need for a solution that could provide a single, chronological trace of product evolution. Product Owners required a clear overview of major changes and progress, while developers needed accurate, meeting-based documentation without the overhead of attending every discussion.</p>\n<p>This project delivered a smart meeting companion application designed to revolutionize documentation for startup development teams. The solution leverages AI to automatically transcribe meetings, extract critical decisions, technical discussions, and blockers, and then organizes this information into a chronological product timeline and a searchable database. This approach significantly improved team alignment, reduced miscommunication, and provided an invaluable historical record of product evolution, enabling faster, more accurate development cycles.</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Key Business Challenges</h2>\n<ul>\n<li><strong>Development Delays:</strong> Miscommunication and forgotten context from undocumented meetings frequently led to project delays and rework.</li>\n<li><strong>Incorrect Implementations:</strong> Critical technical decisions and evolving requirements were often lost, resulting in incorrect feature development.</li>\n<li><strong>Lack of Product Traceability:</strong> There was no single, chronological record of how the product evolved, making it difficult to track changes and understand historical context.</li>\n<li><strong>High Cognitive Load:</strong> Teams relied heavily on individual memory, increasing the risk of errors and reducing overall efficiency.</li>\n<li><strong>Inefficient Information Flow:</strong> Key updates and decisions were not consistently shared across all stakeholders, particularly in remote or asynchronous environments.</li>\n<li><strong>Difficult Handovers and Retrospectives:</strong> The absence of comprehensive documentation complicated team handovers and made effective post-project analysis challenging.</li>\n</ul>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Solution Overview</h2>\n<p>The solution, a smart meeting companion application, was designed around several core features: Meeting Intelligence, a Chronological Product Timeline, a Searchable Meeting Summary Database, and tailored views for Product Owners and Developers. This comprehensive approach aimed to capture and organize all critical meeting information automatically.</p>\n<p>The technical approach involved state-of-the-art AI for automatically recording or ingesting meeting audio/video and transcripts. This AI extracts key information such as decisions, technical changes, feature updates, requirements, blockers, and action items. To ensure privacy and security, the system supports locally deployable models using <a href=\"https://vllm.ai/\">vllm</a> for production-grade LLM deployment.</p>\n<p>Data collection is highly flexible, supporting ingestion from traditional meeting platforms like Google Meet, Microsoft Teams, and Zoom, as well as voice note uploads or full-fledged meeting recording from user's personal devices including mobile (Android, iOS), and web. The system leverages available mobile device resources for transcription with highly accurate speaker diarization, optimizing cost while maintaining accuracy. It supports over 99 languages, targeting a broad user base.</p>\n<p>For quality assurance and utility, the system allows for manual tagging or confirmation by Product Owners to highlight important AI-extracted updates. Rollout includes auto-generated dashboards for Product Owners, tagged updates for developers, and exportable update logs. Information is timely shared with all stakeholders across various mediums, including Slack, Email and more, and the system automates diagram creation where applicable from derived requirements.</p>\n</div>\n\n<div class=\"case-study-section\">\n<h2>Outcomes and Impact</h2>\n<ul>\n<li><strong>Enhanced Information Traceability:</strong> Established a single, chronological timeline of product evolution, ensuring no critical decision or update is lost.</li>\n<li><strong>Improved Team Alignment:</strong> Significantly reduced miscommunication and improved understanding across small development teams and stakeholders.</li>\n<li><strong>Increased Transparency:</strong> Provided clear, accessible documentation for remote-first and asynchronous teams, fostering a more transparent development process.</li>\n<li><strong>Streamlined Operations:</strong> Made retrospectives and developer handovers smoother by providing comprehensive, searchable historical records.</li>\n<li><strong>Broad Accessibility:</strong> Supported over 99 languages, enabling broader adoption and convenience for diverse user bases.</li>\n<li><strong>Cost-Effective and Secure:</strong> Utilized mobile device resources for transcription and supported locally deployable LLMs, managing costs while enhancing data privacy and security.</li>\n<li><strong>Automated Communication:</strong> Ensured timely sharing of information with all stakeholders across various mediums and automated the creation of necessary diagrams.</li>\n</ul>\n</div>\n\n</div>\n",
+          "createdAt": "2025-09-26T16:23:36.173Z",
+          "updatedAt": "2025-09-26T16:23:36.173Z",
+          "publishedAt": "2025-09-26T16:23:36.204Z",
+          "image": {
+            "id": 85,
+            "documentId": "naaal758hksjyhck86rrv3tv",
+            "url": "/uploads/meeting-logo.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_INFINIT (19).png",
+                "hash": "thumbnail_INFINIT_19_2d92486046",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 138,
+                "size": 17.7,
+                "sizeInBytes": 17704,
+                "url": "/uploads/meeting-logo.png"
+              },
+              "small": {
+                "name": "small_INFINIT (19).png",
+                "hash": "small_INFINIT_19_2d92486046",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 281,
+                "size": 40.77,
+                "sizeInBytes": 40768,
+                "url": "/uploads/meeting-logo.png"
+              },
+              "medium": {
+                "name": "medium_INFINIT (19).png",
+                "hash": "medium_INFINIT_19_2d92486046",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 66.46,
+                "sizeInBytes": 66457,
+                "url": "/uploads/meeting-logo.png"
+              },
+              "large": {
+                "name": "large_INFINIT (19).png",
+                "hash": "large_INFINIT_19_2d92486046",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 563,
+                "size": 93.14,
+                "sizeInBytes": 93141,
+                "url": "/uploads/meeting-logo.png"
+              }
+            }
+          }
         }
       ],
       "news_blogs_and_event": {

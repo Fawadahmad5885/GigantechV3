@@ -1100,7 +1100,7 @@
           "logo": {
             "id": 144,
             "documentId": "jt2dp2v60vw3zeibgrntwvq0",
-            "url": "/uploads/ansblepng"
+            "url": "/uploads/ansble.png"
           }
         },
         {
@@ -1132,7 +1132,7 @@
           "logo": {
             "id": 147,
             "documentId": "n50b1qjhtia5squtm9yjms22",
-            "url": "/uploads/azuresvg"
+            "url": "/uploads/azure.svg"
           }
         },
         {
@@ -1164,7 +1164,7 @@
           "logo": {
             "id": 96,
             "documentId": "dfls2p6f0uhlr1b8jtt8tt8f",
-            "url": "/uploads/claudepng"
+            "url": "/uploads/claude.png"
           }
         },
         {
@@ -1212,7 +1212,7 @@
           "logo": {
             "id": 141,
             "documentId": "vf0d8i5a7k30naucuuj0ffiz",
-            "url": "/uploads/dockerpng"
+            "url": "/uploads/docker.png"
           }
         },
         {
@@ -1276,7 +1276,7 @@
           "logo": {
             "id": 94,
             "documentId": "pufvcsazaygvlb1q3vjcjc8p",
-            "url": "/uploads/geminipng"
+            "url": "/uploads/gemini.png"
           }
         },
         {
@@ -1292,7 +1292,7 @@
           "logo": {
             "id": 146,
             "documentId": "xejeuwe2ahehcl8zqmrb4zts",
-            "url": "/uploads/grafanapng"
+            "url": "/uploads/grafana.png"
           }
         },
         {
@@ -1516,7 +1516,7 @@
           "logo": {
             "id": 79,
             "documentId": "fn485i2wjeeejoy19zyhlq4m",
-            "url": "/uploads/matplotlibsvg"
+            "url": "/uploads/matplotlib.svg"
           }
         },
         {
@@ -1772,7 +1772,7 @@
           "logo": {
             "id": 145,
             "documentId": "xpn667qergvnivfg54jebciz",
-            "url": "/uploads/Prometheus-iconpng"
+            "url": "/uploads/Prometheus-icon.png"
           }
         },
         {
@@ -2012,7 +2012,7 @@
           "logo": {
             "id": 143,
             "documentId": "y1djohg2otofqbnyu17z4n8m",
-            "url": "/uploads/terraformpng"
+            "url": "/uploads/terraform.png"
           }
         },
         {
@@ -2492,7 +2492,7 @@
           "logo": {
             "id": 191,
             "documentId": "du5qxsnf0h1a26qxcc792ctu",
-            "url": "/uploads/ardinopng"
+            "url": "/uploads/ardino.png"
           }
         },
         {
@@ -3015,7 +3015,7 @@
           "order": 1,
           "showOnTop": false,
           "category": " Oil & Gas, Transportation, Construction",
-          "content": "## Executive Summary \nTrack, Audit & Optimize with Confidence is a comprehensive digital solution designed specifically for managing critical linear infrastructure assets across Saudi Arabia's rapidly expanding oil and gas sector. With Saudi Aramco operating one of the world's largest hydrocarbon pipeline networks and mega-projects like NEOM requiring sophisticated infrastructure management, this platform addresses the unique challenges of maintaining thousands of kilometers of pipelines, refineries, and associated point assets across harsh desert environments.\nThe platform combines mobile-native applications, offline functionality, and intelligent asset monitoring to deliver measurable improvements in operational efficiency, safety compliance, and cost management for oil and gas operators in the Middle East.\n\n---\n### Industry Challenges\nSaudi Arabia's oil and gas infrastructure faces unprecedented challenges as the Kingdom pursues Vision 2030 and massive development projects:\n\n**Remote Desert Operations:** Aramco awarded $7.7 billion for major expansion of its Fadhili Gas Plant, highlighting the scale of infrastructure requiring maintenance across vast, remote desert locations with limited connectivity.\n\n**Aging Infrastructure Management:** With extensive legacy pipeline networks spanning thousands of kilometers, operators struggle to maintain comprehensive asset records and implement predictive maintenance strategies.\n\n**Safety and Compliance:** The Saudi Arabian oil and gas pipeline maintenance market is projected to reach USD 139.3 million between 2024 and 2030, driven by stringent safety requirements and the critical need for uninterrupted hydrocarbon flow.\n\n**Workforce Safety in Harsh Environments:** Desert conditions, extreme temperatures, and remote locations create unique safety challenges requiring robust pre-inspection protocols and hours-of-service monitoring.\n\n**Integration Complexity:** Legacy systems like SAP require extensive customization and lack mobile-native capabilities essential for field operations.\n\n---\n\n## Solution Overview\nThe Linear Asset Management Platform provides a unified solution for managing both linear assets (pipelines, transmission lines) and point assets (pumping stations, valve stations, refineries) within a single, integrated system.\n\n### Core Capabilities\n\n**Hybrid Asset Management:** The platform seamlessly handles linear pipeline segments and associated point infrastructure, enabling comprehensive asset lifecycle management from a single interface.\n\n**Mobile-First Architecture:** Unlike traditional desktop-based systems, field personnel access fully functional native mobile applications for all inspection, maintenance, and reporting activities.\n\n**Offline Operation:** Critical for desert environments, the platform operates completely offline, synchronizing data when connectivity is restored.\n\n**Intelligent Defect Management:** Automated defect detection combined with manual inspection reporting creates comprehensive asset condition monitoring.\n\n**Geographic Positioning:** Linear assets are managed using geographic coordinates and industry-standard milepost terminology, enabling precise location-based maintenance planning.\n\n---\n## Saudi Arabia Implementation Example\n\nConsider Saudi Aramco's East-West Pipeline system, a critical 1,200-kilometer network transporting crude oil from eastern oil fields to Red Sea terminals. This infrastructure exemplifies the platform's application:\n\n#### Linear Asset Configuration\n- **Pipeline Segments:** Each section defined by start/end geographic coordinates\n\n- **Milepost References:** Industry-standard positioning using percentage-based location markers\n\n- **Hierarchical Structure:** Network → Line → Segment → Subsection for granular maintenance planning\n\n#### Point Asset Integration\n- **Pumping Stations:** Located at regular intervals requiring routine maintenance\n- **Valve Stations:** Critical control points needing periodic inspection\n- **Meter Stations:** Flow measurement facilities with complex instrumentation\n\n#### Operational Workflow\n1. **Scheduled Inspections:** Mobile teams receive automated work orders based on asset criticality and maintenance schedules\n2. **Defect Reporting:** Field personnel report issues using precise geographic positioning and standardized classification\n3. **Work Order Generation:** System automatically creates maintenance requests with priority assignment and resource allocation\n4. **Safety Compliance:** Mandatory pre-inspection safety checklists ensure regulatory compliance\n\n\n\n## Business Impact\n\n### Operational Efficiency\n- **Streamlined Inspection Process**: Mobile applications eliminate paperwork and enable real-time data capture  \n- **Faster Response Times**: Automated work order generation and mobile notifications accelerate issue resolution  \n- **Enhanced Asset Visibility**: Comprehensive digital records replace fragmented legacy documentation  \n\n### Cost Management\n- **Reduced Emergency Repairs**: Predictive maintenance strategies help prevent costly unplanned downtime  \n- **Lower Administrative Overhead**: Automated reporting and workflow management eliminate manual processes  \n- **Improved Data Accuracy**: Mobile applications with validation rules minimize data entry errors  \n\n### Safety and Compliance\n- **Enforced Safety Protocols**: Mandatory pre-inspection checklists prevent workflow initiation until compliance verification  \n- **Hours of Service Monitoring**: Automated tracking prevents worker fatigue-related incidents  \n- **Simplified Regulatory Reporting**: Automated compliance documentation streamlines audit preparation \n\n### Scalability and Reliability\n- **Enterprise-Grade Performance:-** Supports thousands of concurrent users across distributed operations\n- **High System Availability:** Cloud-native architecture ensures continuous availability\n- **Seamless Integration:** Pre-built connectors for SAP and other enterprise systems\n![Dashboard](/case-studies-image/oil-technology-image.png)\n\n## Technology Differentiators\n\n### AI-Powered Intelligence\nUnlike traditional asset management systems that rely on reactive maintenance approaches, the Linear Asset Management Platform leverages advanced artificial intelligence to provide predictive insights, automated defect detection, and intelligent resource optimization—capabilities essential for Saudi Arabia's complex energy infrastructure.\n\n### Computer Vision Integration\n\nThe platform's on-device computer vision capabilities enable inspectors to receive instant feedback and guidance during field inspections, ensuring consistent quality standards across diverse teams and challenging environmental conditions typical of Middle Eastern operations.\n\n### Predictive Analytics Engine\n\nAdvanced machine learning algorithms analyze patterns across asset performance, environmental conditions, and maintenance history to predict failures before they occur—transforming maintenance from reactive to proactive across Saudi Arabia's extensive pipeline networks.\n\n### Institutional Knowledge Management\n\nThe automated lessons management system captures and preserves critical operational knowledge, ensuring continuity as Saudi Arabia's energy sector expands and workforce composition evolves through major projects like NEOM.\n\n## Conclusion\n\nAs Saudi Arabia continues expanding its hydrocarbon infrastructure through Vision 2030 and projects like NEOM, the Linear Asset Management Platform provides the digital foundation necessary for world-class asset management. The platform's unique combination of mobile-first design, offline capability, and intelligent workflows delivers immediate operational benefits while providing the scalability needed for future growth.\nThe solution addresses critical challenges specific to Middle Eastern operations—from extreme desert conditions to complex regulatory environments—while offering the flexibility to adapt to emerging technologies and changing business requirements. For organizations managing linear infrastructure assets across Saudi Arabia's vast landscape, this platform represents the next generation of asset management technology.\n\n",
+          "content": " # Case Study: Track, Audit & Optimize with Confidence\n\n## Executive Summary\n\n**Track, Audit & Optimize with Confidence** is a comprehensive digital solution designed specifically for managing critical linear infrastructure assets across Saudi Arabia's rapidly expanding oil and gas sector.\n\nWith Saudi Aramco operating one of the world's largest hydrocarbon pipeline networks and mega-projects like NEOM requiring sophisticated infrastructure management, this platform addresses the unique challenges of maintaining thousands of kilometers of pipelines, refineries, and associated point assets across harsh desert environments.\n\nThe platform combines mobile-native applications, offline functionality, and intelligent asset monitoring to deliver measurable improvements in operational efficiency, safety compliance, and cost management for oil and gas operators in the Middle East.\n\n\n## Industry Challenges\n\nSaudi Arabia's oil and gas infrastructure faces unprecedented challenges as the Kingdom pursues Vision 2030 and massive development projects:\n\n- **Remote Desert Operations**\n  Aramco awarded $7.7 billion for major expansion of its Fadhili Gas Plant, highlighting the scale of infrastructure requiring maintenance across vast, remote desert locations with limited connectivity.\n\n- **Aging Infrastructure Management**\n  With extensive legacy pipeline networks spanning thousands of kilometers, operators struggle to maintain comprehensive asset records and implement predictive maintenance strategies.\n\n- **Safety and Compliance**\n  The Saudi Arabian oil and gas pipeline maintenance market is projected to reach USD 139.3 million between 2024 and 2030, driven by stringent safety requirements and the critical need for uninterrupted hydrocarbon flow.\n\n- **Workforce Safety in Harsh Environments**\n  Desert conditions, extreme temperatures, and remote locations create unique safety challenges requiring robust pre-inspection protocols and hours-of-service monitoring.\n\n- **Integration Complexity**\n  Legacy systems like SAP require extensive customization and lack mobile-native capabilities essential for field operations.\n\n\n## Solution Overview\n\nThe Linear Asset Management Platform provides a unified solution for managing both linear assets (pipelines, transmission lines) and point assets (pumping stations, valve stations, refineries) within a single, integrated system.\n\n### Core Capabilities\n\n- **Hybrid Asset Management**\n  Seamlessly handles linear pipeline segments and associated point infrastructure for full lifecycle management.\n\n- **Mobile-First Architecture**\n  Fully functional native mobile applications support inspection, maintenance, and reporting activities.\n\n- **Offline Operation**\n  Operates completely offline—critical for desert environments—with automatic synchronization when connectivity is restored.\n\n- **Intelligent Defect Management**\n  Combines automated defect detection with manual inspection reporting for comprehensive asset condition monitoring.\n\n- **Geographic Positioning**\n  Uses geographic coordinates and milepost terminology for precise, location-based maintenance planning.\n\n\n## Saudi Arabia Implementation Example\n\n**Example: Saudi Aramco's East-West Pipeline System**\n A 1,200-kilometer network transporting crude oil from eastern oil fields to Red Sea terminals.\n\n### Linear Asset Configuration\n\n- **Pipeline Segments**\n  Defined by start/end geographic coordinates.\n\n- **Milepost References**\n  Uses industry-standard percentage-based location markers.\n\n- **Hierarchical Structure**\n  Network → Line → Segment → Subsection, supporting granular planning.\n\n### Point Asset Integration\n\n- **Pumping Stations** — Routine maintenance\n- **Valve Stations** — Periodic inspections\n- **Meter Stations** — Complex instrumentation for flow measurement\n\n### Operational Workflow\n\n1. **Scheduled Inspections**\n    Mobile teams receive automated work orders based on asset criticality.\n\n2. **Defect Reporting**\n    Issues reported with geographic precision and standardized classification.\n\n3. **Work Order Generation**\n    Maintenance requests are auto-generated with prioritization and resource allocation.\n\n4. **Safety Compliance**\n    Pre-inspection checklists ensure regulatory adherence.\n\n\n## Business Impact\n\n### Operational Efficiency\n\n- **Streamlined Inspection Process** — Real-time mobile data capture eliminates paperwork\n- **Faster Response Times** — Work orders and notifications accelerate resolution\n- **Enhanced Asset Visibility** — Digital records replace fragmented documentation\n\n### Cost Management\n\n- **Reduced Emergency Repairs** — Predictive strategies prevent downtime\n- **Lower Administrative Overhead** — Automation reduces manual effort\n- **Improved Data Accuracy** — Validation rules prevent input errors\n\n### Safety and Compliance\n\n- **Enforced Safety Protocols** — Inspections blocked until checklists are completed\n- **Hours of Service Monitoring** — Tracks workforce fatigue\n- **Simplified Regulatory Reporting** — Auto-generated compliance reports\n\n### Scalability and Reliability\n\n- **Enterprise-Grade Performance** — Supports thousands of users\n- **High System Availability** — Cloud-native and resilient\n- **Seamless Integration** — Pre-built SAP and enterprise connectors\n\n\n<div style=\"text-align:center;\">\n  <img src=\"./oil-technology-image.png\" alt=\"My image\">\n</div>\n\n\n## Technology Differentiators\n\n### AI-Powered Intelligence\n\nUnlike traditional systems, this platform uses advanced AI for predictive insights, defect detection, and intelligent resource allocation—crucial for Saudi Arabia’s large-scale infrastructure.\n\n### Computer Vision Integration\n\nOn-device computer vision provides real-time inspection feedback, ensuring consistent quality even in harsh field environments.\n\n### Predictive Analytics Engine\n\nMachine learning models predict failures based on patterns in asset data, environment, and maintenance history—turning maintenance from reactive to proactive.\n\n### Institutional Knowledge Management\n\nAn automated lessons-learned system captures operational knowledge and ensures continuity as projects and workforces scale under Vision 2030 and NEOM.\n\n\n## Conclusion\n\nAs Saudi Arabia continues expanding its hydrocarbon infrastructure through Vision 2030 and projects like NEOM, the Linear Asset Management Platform provides the digital foundation for modern, world-class asset management.\n\nWith its mobile-first design, offline functionality, and intelligent workflows, the platform delivers immediate operational benefits and long-term scalability. It tackles the region’s toughest challenges—extreme environments, regulatory complexity, and legacy systems—while remaining flexible for future innovation.\n\nThis is the next generation of infrastructure management for the Middle East. ",
           "image": {
             "id": 230,
             "documentId": "h4qz3gppbwnfa202rogl51sv",

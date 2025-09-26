@@ -2,6 +2,7 @@
 "use client";
 import ReactMarkdown from "react-markdown";
 import Image from "next/image";
+import rehypeRaw from "rehype-raw";
 import Contact from "../../components/contact/Contact";
 import { getStrapiMedia } from "../../../lib/api";
 export default function CaseStudyMain({
@@ -45,32 +46,65 @@ export default function CaseStudyMain({
   const imageUrl = getImageUrl();
 
   return (
-    <div className="bg-gradient-to-r from-backgroundColor/10 via-backgroundColor/50 to-backgroundColor">
-      <div className="   w-full  bg-cover  bg-center ">
-        <div className="relative max-lg:pt-12 lg:pt-44 h-full lg:min-h-[80vh] 2xl:min-h-[70vh] px-5 inset-0 flex flex-col gap-6 xl:flex-row items-center justify-center lg:justify-between container mx-auto  text-textColor">
-          {" "}
+    <div className=" bg-gradient-to-r from-backgroundColor/10  via-backgroundColor/50 to-backgroundColor">
+      <section className="relative w-full bg-gradient-to-r from-backgroundColor/10 via-secondaryColor/50 to-backgroundColor  xl:h-screen 2xl:h-[90vh] ">
+        {/* bg-gradient-to-l from-backgroundColor/10  via-backgroundColor/50 to-backgroundColor */}
+        {/* background image */}
+        {/* <Image
+    src={imageUrl}
+    alt={title || "Case Study Background"}
+    fill            // makes it cover the parent
+    priority        // loads immediately
+    className="object-cover object-center"
+  /> */}
+
+        {/* gradient overlay */}
+        <div className=""></div>
+
+        {/* content wrapper */}
+        <div className="relative z-10 h-full flex flex-col gap-6 xl:flex-row items-center justify-center lg:justify-between container mx-auto px-5 max-lg:pt-12 lg:pt-44">
+          {/* left content */}
           <div
             data-aos="fade-right"
             data-aos-duration="1000"
             className="text-start w-1/2 max-xl:mt-8 max-xl:w-full font-poppins"
           >
-            <h3 className="text-secondaryColor text-lg font-poppins font-medium">
+            {/* <h3 className="text-secondaryColor text-lg font-poppins font-medium">
               {category}
-            </h3>
+            </h3> */}
             <h1 className="heading-text my-1">{title}</h1>
-            {/* <p className="text-base tracking-wide font-poppins w-full text-start text-textColor mx-auto mb-4">
-              {description || "Discover our case studies"}
+            {/* <p>
+             Chandramouli Venkatesan and Valerie Monchi discuss how Barclays and Capgemini transformed Barclays Live.
             </p> */}
+            <div className="relative flex  py-2  rounded-md flex-col md:flex-row gap-2 md:gap-10 my-4">
+              {/* <div className=" flex flex-col">
+                <p className=" tracking-wide font-poppins text-textColor font-medium">
+                  Client
+                </p>
+                <p className="text-primaryColor text-lg font-poppins font-medium">
+                  Barclays
+                </p>
+              </div> */}
+              {/* <div className="w-1 h-full bg-primaryColor"></div> */}
+              <div className=" flex flex-col">
+                <p className=" tracking-wide font-poppins text-textColor font-medium">
+                  Indusry
+                </p>
+                <p className="text-primaryColor text-lg font-poppins font-medium">
+                 {category}
+                </p>
+              </div>
+            </div>
             {technologiesCard && technologiesCard.length > 0 && (
               <>
-                <h3 className="text-secondaryColor mt-4 text-lg font-poppins font-medium">
+                <h3 className="tracking-wide font-poppins text-textColor font-medium">
                   Technologies
                 </h3>
-                <div className="flex flex-row gap-4 mt-2 items-center justify-start flex-wrap">
+                <div className="flex flex-row gap-4  items-center justify-start flex-wrap">
                   {technologiesCard.map((tech, index) => (
                     <div
                       key={index}
-                      className="flex flex-col items-center justify-center gap-1 p-2 "
+                      className="flex flex-col items-center justify-center gap-1 py-2 "
                       title={tech.title}
                     >
                       <div className="w-10 h-10 flex items-center justify-center">
@@ -94,10 +128,12 @@ export default function CaseStudyMain({
               </>
             )}
           </div>
+
+          {/* optional right-side image block */}
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="items-center w-full h-full  overflow-hidden md:flex-1 flex"
+            className="items-center w-full h-full overflow-hidden md:flex-1 flex"
           >
             <Image
               src={imageUrl}
@@ -108,7 +144,7 @@ export default function CaseStudyMain({
             />
           </div>
         </div>
-      </div>
+      </section>
       {/* Descripition */}
       {/* <div className="relative max-xl:mt-12">
         <div className="flex flex-col justify-center container  mx-auto items-start px-6 ">
@@ -121,9 +157,13 @@ export default function CaseStudyMain({
         </div>
       </div> */}
       {/* Sections */}
-      <div className="p-6 rounded-lg  mb-6  container  mx-auto">
-        <div className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-strong:text-gray-900 prose-blockquote:border-l-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg">
-          <ReactMarkdown>{content}</ReactMarkdown>
+      <div className="relative xl:-mt-24">
+        {" "}
+        {/* push up 48 (12rem) into hero */}
+        <div className="p-6 rounded-lg container   mx-auto">
+          <div className="markdown-content prose prose-lg text-justify max-w-full prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-strong:text-gray-900 prose-blockquote:border-l-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg">
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
+          </div>
         </div>
       </div>
 

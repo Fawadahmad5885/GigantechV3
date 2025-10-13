@@ -19,7 +19,7 @@
       "image": {
         "id": 207,
         "documentId": "wnwnegvfoe60n1dgj8t1zgel",
-        "url": "/uploads/main_desktop_346db9b5_a1dba26290.png",
+        "url": "/uploads/chatdocs-image.png",
         "formats": {
           "thumbnail": {
             "name": "thumbnail_main-desktop.346db9b5.png",
@@ -31,7 +31,7 @@
             "height": 138,
             "size": 23.85,
             "sizeInBytes": 23845,
-            "url": "/uploads/thumbnail_main_desktop_346db9b5_a1dba26290.png"
+            "url": "/uploads/chatdocs-image.png"
           },
           "small": {
             "name": "small_main-desktop.346db9b5.png",
@@ -43,7 +43,7 @@
             "height": 281,
             "size": 72.2,
             "sizeInBytes": 72197,
-            "url": "/uploads/small_main_desktop_346db9b5_a1dba26290.png"
+            "url": "/uploads/chatdocs-image.png"
           },
           "medium": {
             "name": "medium_main-desktop.346db9b5.png",

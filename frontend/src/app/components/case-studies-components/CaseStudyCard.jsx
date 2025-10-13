@@ -35,7 +35,7 @@ const CaseStudyCard = ({
           height={300}
           alt={title}
           style={{ objectFit: "cover" }}
-          className="object-cover w-full h-full transition-all duration-500 transform  bg-secondaryColor"
+          className="object-cover p-2  w-full h-full transition-all duration-500 transform  bg-secondaryColor"
         />
        
       </div>

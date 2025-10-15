@@ -75,17 +75,20 @@ export default function CaseStudies({ headerData, cards }) {
                   className="flex flex-col group border border-gray-300 shadow-sm transition-[transform] duration-500 ease-in-out overflow-hidden relative  h-full"
                 >
                   {/* Image Section */}
-                  <div className="relative w-full aspect-[16/9] overflow-hidden">
+                  <div className="overflow-hidden relative">
                     <Image
                       src={
                         getStrapiMedia(item.image?.url) || "/placeholder.svg"
                       }
                       alt={item.title}
-                      fill
-                      className="object-cover p-2 transition-all duration-500 transform  bg-secondaryColor"
+                      width={500}
+                      height={300}
+                      style={{ objectFit: "cover" }}
+                      className="object-cover p-3  w-full h-full transition-all duration-500 transform  bg-secondaryColor"
                     />
                     {/* <div className="absolute inset-0 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"></div> */}
                   </div>
+
 
                   {/* Content */}
                   <div className="flex flex-col p-6 flex-1 relative z-20">

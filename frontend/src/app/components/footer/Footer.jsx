@@ -9,7 +9,8 @@ import { scroller } from "react-scroll";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { getStrapiMedia } from "../../../lib/api";
-
+import { Phone } from "lucide-react";
+import WhatsAppIcon from "../../../../public/icons8-whatsapp-48.png";
 function Footer({ footerData, services, industries }) {
   const officesCards = footerData?.officesCard || [];
   const { description, whiteLogo } = footerData;
@@ -66,7 +67,29 @@ function Footer({ footerData, services, industries }) {
               style={{ objectFit: "contain" }}
               className="max-md:w-40  object-contain"
             />
-            <p className="text-textColor w-5/6 font-poppins mt-4 text-base tracking-wide whitespace-pre-line">
+            <a
+              href={`https://wa.me/message/5UAXSUD67MXHP1`}
+              className="flex text-base items-center gap-2 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={WhatsAppIcon}
+                alt="WhatsApp"
+                width={24}
+                height={24}
+                className="h-6 w-6"
+              />
+              <span>{CONTACT_INFO.phone}</span>
+            </a>
+            <a
+              href={`tel:${CONTACT_INFO.phone}`}
+              className="flex text-base items-center gap-3 hover:underline"
+            >
+              <Phone className="h-4 w-4 ml-1" />
+              <span>{CONTACT_INFO.phone}</span>
+            </a>
+            <p className="text-textColor w-5/6  text-base tracking-wide whitespace-pre-line">
               {description}
             </p>
           </div>

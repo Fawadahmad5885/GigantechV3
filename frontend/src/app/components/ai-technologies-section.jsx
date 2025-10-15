@@ -80,7 +80,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
               <button
                 key={tech?.slug}
                 onClick={() => setActiveTechId(tech.slug)}
-                className={`relative flex items-center justify-center gap-2 md:gap-3 rounded-md p-3 md:p-4 font-poppins text-sm md:text-lg font-medium 
+                className={`relative flex items-center justify-center gap-2 md:gap-3 rounded-md p-3 md:p-4 font-poppins text-sm md:text-base font-medium 
                   transition-all duration-500 ease-in-out
                   ${
                     isActive
@@ -158,7 +158,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
                   </motion.h3>
 
                   <motion.p
-                    className="text-white/90 text-base md:text-lg leading-relaxed tracking-wide mb-6"
+                    className="text-white/90 text-base font-poppins  leading-relaxed tracking-wide mb-6"
                     initial={{ y: 10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.15, duration: 0.35 }}
@@ -183,7 +183,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
                     {activeTech.bullets.map((service, i) => (
                       <motion.li
                         key={i}
-                        className="flex items-center text-white text-base md:text-lg"
+                        className="flex items-center text-white text-base font-poppins"
                         variants={{
                           hidden: { opacity: 0, x: -10 },
                           show: { opacity: 1, x: 0 },

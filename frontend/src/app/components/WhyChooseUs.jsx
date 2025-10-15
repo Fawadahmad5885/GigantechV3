@@ -45,7 +45,7 @@ function WhyChooseUs({ aboutData }) {
               <h1 className="heading-text lg:leading-[48px] text-textColor text-left mt-0">
                 {title}
               </h1>
-              <p className="text-textColor my-[15px] text-justify text-lg">
+              <p className="text-textColor my-[15px] text-justify font-poppins text-base">
                 {description}
               </p>
               <button

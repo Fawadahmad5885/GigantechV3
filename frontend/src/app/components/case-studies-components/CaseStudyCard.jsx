@@ -35,7 +35,7 @@ const CaseStudyCard = ({
           height={300}
           alt={title}
           style={{ objectFit: "cover" }}
-          className="object-cover p-2  w-full h-full transition-all duration-500 transform  bg-secondaryColor"
+          className="object-cover p-3  w-full h-full transition-all duration-500 transform  bg-secondaryColor"
         />
        
       </div>
@@ -58,10 +58,15 @@ const CaseStudyCard = ({
           {desc}
         </p>
 
-        <div className="inline-flex items-center text-gray-900 group-hover:text-secondaryColor rounded-lg transition-colors duration-300 relative z-20">
-          <span>Read more</span>
-          <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
-        </div>
+        <div className="relative z-20 mt-auto">
+                              <button className="primaryButton !flex !flex-row !items-center !justify-center px-2 py-3 group transition-all duration-300">
+                                <span className="font-poppins font-medium text-sm">
+                                  Read Case Study
+                                </span>
+                                <ArrowRight className="w-5 h-5 ml-2 " />
+                              </button>
+                            </div>
+        
       </div>
     </Link>
   );

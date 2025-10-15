@@ -5,6 +5,7 @@ import Image from "next/image";
 import React, { useEffect, useState, useRef } from "react";
 import { TfiMenu } from "react-icons/tfi";
 import { IoMdClose } from "react-icons/io";
+import WhatsAppIcon from "../../../public/icons8-whatsapp-48.png"
 import {
   Box,
   Divider,
@@ -235,7 +236,12 @@ export default function Header({ headerData }) {
     target="_blank"   // opens in new tab
     rel="noopener noreferrer"
   >
-    <Phone className="h-4 w-4" />
+    <Image
+      src={WhatsAppIcon}
+      alt="WhatsApp"
+      width={24}
+      height={24}
+     className="h-6 w-6" />
     <span>{CONTACT_INFO.phone}</span>
   </a>
 

@@ -36,7 +36,7 @@ body {
 }
 
 .card-description {
-  @apply text-gray-700  text-sm md:text-base font-poppins
+  @apply text-gray-800  text-sm md:text-base font-poppins
 }
 
 .footer-items-heading {

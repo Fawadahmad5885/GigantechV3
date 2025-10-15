@@ -134,9 +134,9 @@ function Technologies({ headerData, technologies }) {
           <button
             key={category.name}
             onClick={() => setSelectedCategory(category.name)}
-            className={`px-2  z-10 py-3 flex flex-row items-center justify-center gap-2 text-base font-medium cursor-pointer ${
+            className={`px-2  z-10 py-3 flex flex-row items-center  justify-center gap-2 text-base font-medium cursor-pointer ${
               category.name === selectedCategory
-                ? " bg-white  text-textColor border-b-[3px] border-primaryColor"
+                ? " bg-white  text-textColor border-b-[3px] rounded-t-md shadow-sm border-primaryColor"
                 : "text-gray-600"
             }`}
           >

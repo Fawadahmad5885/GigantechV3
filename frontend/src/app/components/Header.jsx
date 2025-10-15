@@ -224,19 +224,32 @@ export default function Header({ headerData }) {
         }}
       >
         {/* First Header (Top Bar) */}
-        <div
+      <div
           ref={topBarRef}
           className="bg-gradient-to-r from-custom-blue-dark to-custom-blue-light text-textColor text-sm py-5 px-4 md:px-6"
         >
           <div className="container mx-auto flex justify-end items-center gap-6">
-            <Link
-              href={`mailto:${CONTACT_INFO.email}`}
-              className="flex text-base items-center gap-2 hover:underline"
-            >
-              <Mail className="h-4 w-4" />
-              <span>contact@gigantech.com</span>
-            </Link>
-          </div>
+  <a
+    href={`https://wa.me/message/5UAXSUD67MXHP1`}
+    className="flex text-base items-center gap-2 hover:underline"
+    target="_blank"   // opens in new tab
+    rel="noopener noreferrer"
+  >
+    <Phone className="h-4 w-4" />
+    <span>{CONTACT_INFO.phone}</span>
+  </a>
+
+  <a
+    href={`mailto:${CONTACT_INFO.email}`}
+    className="flex text-base items-center gap-2 hover:underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Mail className="h-4 w-4" />
+    <span>{CONTACT_INFO.email}</span>
+  </a>
+</div>
+
         </div>
 
         <div

@@ -27,244 +27,240 @@
       ],
       "ai_technologies": [
         {
-          "id": 24,
-          "documentId": "mj7k3wfkhe5gcfjo6hrgcbwm",
+          "id": 17,
+          "documentId": "fg6ia8bsrimugipd7x5cptm1",
           "name": "Edge AI",
           "slug": "edge-ai",
-          "description": "Our Edge AI offerings bring intelligence closer to the source, enabling secure, real-time, and multilingual processing on mobile and offline devices.\n",
-          "createdAt": "2025-08-27T13:06:52.900Z",
-          "updatedAt": "2025-09-09T12:00:04.647Z",
-          "publishedAt": "2025-09-09T12:00:04.661Z",
+          "description": "Our Edge AI offerings bring intelligence closer to the source, enabling secure, real-time, and multilingual processing on mobile and offline devices.",
           "order": 2,
+          "createdAt": "2025-10-09T10:40:50.148Z",
+          "updatedAt": "2025-10-15T12:13:38.599Z",
+          "publishedAt": "2025-10-15T12:13:38.626Z",
           "backgroundImage": {
-            "id": 218,
-            "documentId": "sdmybputi5ka48h2slyjtzah",
-            "url": "/uploads/blockchain_bg_2f19bd9b63.png"
+            "id": 89,
+            "documentId": "qg5d8rc55zp2hjoefomnfr1w",
+            "url": "/uploads/blockchain_bg_2f19bd9b63_9fa65e55a4.png"
           },
           "icon": {
-            "id": 217,
-            "documentId": "rbgvm8pfuxtiyzj9pn89ueso",
-            "url": "/uploads/edge_ai_51bc56eb04.png"
+            "id": 88,
+            "documentId": "l6f20vn8slm2eaf1evptcakq",
+            "url": "/uploads/edge_ai_51bc56eb04_0d142a3c01.png"
           },
           "bullets": [
             {
-              "id": 117,
+              "id": 67,
               "description": "Multilingual on-device meeting apps with offline transcription, summarization, and task extraction in over 90 languages."
             },
             {
-              "id": 118,
-              "description": "Mobile-deployed AI tools for private, secure, and real-time processing of multimodal data."
+              "id": 68,
+              "description": "\"Mobile-deployed AI tools for private, secure, and real-time processing of multimodal data."
             },
             {
-              "id": 119,
-              "description": "Edge-optimized inference for custom neural networks and vision AI models with low latency."
-            },
-            {
-              "id": 120,
+              "id": 69,
               "description": "Online and offline multilingual document-based chatbots with private knowledge bases, supporting diverse file types (Word, PDF, Excel sheets, transcripts, etc.) as well as online resources (websites, Google Docs/Sheets, etc.)."
             }
           ]
         },
         {
-          "id": 25,
-          "documentId": "gb7lgpzfg8jcr0dmqxm7j5iu",
+          "id": 20,
+          "documentId": "ruq10s6p5f5hbx0x8us0taan",
           "name": "Predictive Analytics",
           "slug": "predictive-analytics",
           "description": "We develop predictive models that help organizations anticipate events, detect anomalies, and extract valuable insights — even in challenging environments.",
-          "createdAt": "2025-08-27T12:38:53.387Z",
-          "updatedAt": "2025-09-09T12:00:34.495Z",
-          "publishedAt": "2025-09-09T12:00:34.511Z",
           "order": 1,
+          "createdAt": "2025-10-09T10:43:21.060Z",
+          "updatedAt": "2025-10-15T12:14:46.915Z",
+          "publishedAt": "2025-10-15T12:14:46.937Z",
           "backgroundImage": {
-            "id": 216,
-            "documentId": "i02f19vcb99fh2n8wg2o51ty",
+            "id": 90,
+            "documentId": "o7bf2lm4x7pfrg45x6znjxdd",
             "url": "/uploads/ai_background_5c4ea31476.png"
           },
           "icon": {
-            "id": 215,
-            "documentId": "grfz2qocqwmvbxog0ktmis4d",
-            "url": "/uploads/predctive_analytics_icon_0acfc2707b.png"
+            "id": 91,
+            "documentId": "f5e3g71br8r1f4tvtul7y2b2",
+            "url": "/uploads/predctive_analytics_icon_0acfc2707b_ae1cd268d5.png"
           },
           "bullets": [
             {
-              "id": 121,
+              "id": 79,
               "description": "Anomaly detection in audio signals, including beep/bell monitoring at train grade crossings."
             },
             {
-              "id": 122,
+              "id": 80,
               "description": "Robotic arm anomaly prediction and proactive alerting using near real-time data streams in remote areas and production floors."
             },
             {
-              "id": 123,
+              "id": 81,
               "description": "Multilingual extraction of action items, requirements, and ideas from meeting transcripts for seamless project tracking."
             },
             {
-              "id": 124,
+              "id": 82,
               "description": "Predictive modeling for anomaly detection and event forecasting in sensor networks."
             }
           ]
         },
         {
-          "id": 20,
-          "documentId": "fzvec04o43kfxb0pihvm6gla",
+          "id": 18,
+          "documentId": "cf6zajgw5sitm8fvpt8dxcol",
           "name": "Generative AI",
           "slug": "generative-ai",
-          "description": "Our Generative AI solutions are built with multilingual capabilities by design, enabling seamless interaction across diverse audiences and industries.\n",
-          "createdAt": "2025-08-27T13:09:02.714Z",
-          "updatedAt": "2025-08-29T12:47:39.087Z",
-          "publishedAt": "2025-08-29T12:47:39.105Z",
+          "description": "Our Generative AI solutions are built with multilingual capabilities by design, enabling seamless interaction across diverse audiences and industries.",
           "order": 3,
+          "createdAt": "2025-10-09T10:46:52.158Z",
+          "updatedAt": "2025-10-15T12:13:58.411Z",
+          "publishedAt": "2025-10-15T12:13:58.436Z",
           "backgroundImage": {
-            "id": 220,
-            "documentId": "x6hj578wv4vka50n0d9u0he9",
-            "url": "/uploads/generative_ai_bg_4a96af9581.png"
+            "id": 93,
+            "documentId": "gn95i1tc2e6xsv864fybtmus",
+            "url": "/uploads/generative_ai_bg_4a96af9581_679b11b405.png"
           },
           "icon": {
-            "id": 219,
-            "documentId": "fyiaovlkns2gok7u1wi6suzc",
-            "url": "/uploads/generative_ai_icon_01ae8eaffd.png"
+            "id": 92,
+            "documentId": "a6mc80dqojb37ku33ori7jmd",
+            "url": "/uploads/generative_ai_bg_4a96af9581_1d00a6b3a6.png"
           },
           "bullets": [
             {
-              "id": 92,
+              "id": 70,
               "description": "Multimodal chatbot integrating text, audio, and images across web, SMS, WhatsApp, and Telegram."
             },
             {
-              "id": 93,
+              "id": 71,
               "description": "AI-based qualitative assessment and auto-grading for various exam formats — long/short answers, essays, and case studies."
             },
             {
-              "id": 94,
+              "id": 72,
               "description": "Meeting intelligence agents that generate structured outputs such as tasks, ideas, and requirements from raw conversations."
             },
             {
-              "id": 95,
+              "id": 73,
               "description": "Actionable role-specific insights and recommendations from transcripts, documents, and events."
             }
           ]
         },
         {
           "id": 21,
-          "documentId": "p3myo0d3bx8tw24u2uovldzh",
+          "documentId": "p67bwe58bce6h6y4jp7ru0yj",
           "name": "Machine Learning",
           "slug": "machine-learning",
-          "description": "We design and optimize machine learning models that power intelligent systems across industries.\n",
-          "createdAt": "2025-08-27T13:10:12.030Z",
-          "updatedAt": "2025-08-29T12:48:21.898Z",
-          "publishedAt": "2025-08-29T12:48:21.919Z",
+          "description": "We design and optimize machine learning models that power intelligent systems across industries.",
           "order": 4,
+          "createdAt": "2025-10-09T10:49:43.824Z",
+          "updatedAt": "2025-10-15T12:25:53.768Z",
+          "publishedAt": "2025-10-15T12:25:53.792Z",
           "backgroundImage": {
-            "id": 222,
-            "documentId": "ha9vg4ftpurgvnvrhrhc196d",
-            "url": "/uploads/machine_learning_bg_5b3a1aba7d.png"
+            "id": 95,
+            "documentId": "eewkfe0glix1bqcl0h111zc7",
+            "url": "/uploads/machine_learning_bg_5b3a1aba7d_59cafa35b5.png"
           },
           "icon": {
-            "id": 221,
-            "documentId": "wscg31t0gvvdjg32dj4xl8f4",
-            "url": "/uploads/ml_icon_4e14775ebc.png"
+            "id": 94,
+            "documentId": "m0hz7ipryhdj4v82nxq3ag8k",
+            "url": "/uploads/ml_icon_4e14775ebc_b54e1596eb.png"
           },
           "bullets": [
             {
-              "id": 100,
+              "id": 83,
               "description": "Custom neural network design, training, and deployment for specialized applications."
             },
             {
-              "id": 101,
+              "id": 84,
               "description": "Fine-tuning and optimization of LLMs using production-grade VLLM frameworks."
             },
             {
-              "id": 102,
+              "id": 85,
               "description": "Data-driven feature engineering and model building across structured and unstructured datasets."
             },
             {
-              "id": 103,
+              "id": 86,
               "description": "Adaptive ML pipelines supporting diverse industry use cases with continuous improvement."
             }
           ]
         },
         {
-          "id": 28,
-          "documentId": "k58bw43o2aef8u2x5wy0lyzo",
-          "name": "Computer Vision",
-          "slug": "computer-vision",
-          "description": "Our computer vision expertise enables automated monitoring, recognition, and anomaly detection in complex real-world scenarios.\n",
-          "createdAt": "2025-08-27T13:11:05.184Z",
-          "updatedAt": "2025-09-10T12:53:53.958Z",
-          "publishedAt": "2025-09-10T12:53:53.981Z",
-          "order": 5,
+          "id": 19,
+          "documentId": "jc9dedkbtgieonoddrhafndm",
+          "name": "IoT & Industry 4.0",
+          "slug": "io-t-and-industry-4-0",
+          "description": "We build intelligent IoT ecosystems aligned with Industry 4.0, combining connectivity, automation, and AI-driven insights.",
+          "order": 6,
+          "createdAt": "2025-10-09T10:54:08.350Z",
+          "updatedAt": "2025-10-15T12:14:23.482Z",
+          "publishedAt": "2025-10-15T12:14:23.510Z",
           "backgroundImage": {
-            "id": 224,
-            "documentId": "hn14b4r0rtlmuxs1bzdjahqv",
-            "url": "/uploads/computer_vision_bg_a239b2a9ad.png"
+            "id": 99,
+            "documentId": "vdok5luzyqtz482qeq1ty20k",
+            "url": "/uploads/iot_bg_9c18a1ed1e_77d214ff21.png"
           },
           "icon": {
-            "id": 223,
-            "documentId": "l3i4y1go01y8waw17vwfvcf6",
-            "url": "/uploads/computer_vision_icon_03705d15a5.png"
+            "id": 98,
+            "documentId": "o0qa8x01cj8ra3lwg5zvyf76",
+            "url": "/uploads/iot_icon_5b127dc70d_7c94c54fe4.png"
           },
           "bullets": [
             {
-              "id": 125,
-              "description": "Vision AI–based anomaly detection and tracking (e.g., YOLO, custom CNNs)."
+              "id": 74,
+              "description": "Connected crossing monitoring using audio, video, light, and motion sensors."
             },
             {
-              "id": 126,
-              "description": "Near real-time video analytics for safety monitoring at critical infrastructure."
+              "id": 75,
+              "description": "Fusion of LiDAR, RADAR, and image sensors for enhanced situational awareness."
             },
             {
-              "id": 127,
-              "description": "Human tracking and face recognition in near real time for security and operational insights."
+              "id": 76,
+              "description": "Near real-time IoT telemetry integration with AI models for predictive safety applications."
             },
             {
-              "id": 128,
-              "description": "Integration of multi-sensor inputs (video, lidar, radar) for robust scene understanding."
+              "id": 77,
+              "description": "Scalable IoT architectures linking edge devices with cloud-based AI dashboards."
             },
             {
-              "id": 129,
-              "description": "Advanced computer vision pipelines optimized for edge devices and low-latency applications."
+              "id": 78,
+              "description": "Industry 4.0–enabled IoT solutions driving automation, connectivity, and smart analytics."
             }
           ]
         },
         {
-          "id": 30,
-          "documentId": "lu5usefhp1xicnid4l5crtt0",
-          "name": "IoT & Industry 4.0",
-          "slug": "io-t-and-industry-4-0",
-          "description": "We build intelligent IoT ecosystems aligned with Industry 4.0, combining connectivity, automation, and AI-driven insights.\n",
-          "createdAt": "2025-08-27T13:12:24.648Z",
-          "updatedAt": "2025-09-10T13:07:21.669Z",
-          "publishedAt": "2025-09-10T13:07:21.690Z",
-          "order": 6,
+          "id": 16,
+          "documentId": "g33bbc995ntbejeo35l39p7w",
+          "name": "Computer Vision",
+          "slug": "computer-vision",
+          "description": "Our computer vision expertise enables automated monitoring, recognition, and anomaly detection in complex real-world scenarios.",
+          "order": 5,
+          "createdAt": "2025-10-09T10:52:12.570Z",
+          "updatedAt": "2025-10-15T12:13:21.256Z",
+          "publishedAt": "2025-10-15T12:13:21.289Z",
           "backgroundImage": {
-            "id": 226,
-            "documentId": "qe4r4llu6kx5839at5vcv40n",
-            "url": "/uploads/iot_bg_9c18a1ed1e.png"
+            "id": 96,
+            "documentId": "zunyismf4klvmv2hgcdsg4uf",
+            "url": "/uploads/computer_vision_bg_a239b2a9ad_8b0019d97a.png"
           },
           "icon": {
-            "id": 225,
-            "documentId": "jizxnu4nqt5ul5sbm7sznkbe",
-            "url": "/uploads/iot_icon_5b127dc70d.png"
+            "id": 97,
+            "documentId": "peus7okd8uf78gav9huy2d9d",
+            "url": "/uploads/computer_vision_icon_03705d15a5_3197218b8c.png"
           },
           "bullets": [
             {
-              "id": 135,
-              "description": "Connected crossing monitoring using audio, video, light, and motion sensors."
+              "id": 62,
+              "description": "Vision AI–based anomaly detection and tracking (e.g., YOLO, custom CNNs)."
             },
             {
-              "id": 136,
-              "description": "Fusion of LiDAR, RADAR, and image sensors for enhanced situational awareness."
+              "id": 63,
+              "description": "Near real-time video analytics for safety monitoring at critical infrastructure."
             },
             {
-              "id": 137,
-              "description": "Near real-time IoT telemetry integration with AI models for predictive safety applications."
+              "id": 64,
+              "description": "Human tracking and face recognition in near real time for security and operational insights."
             },
             {
-              "id": 138,
-              "description": "Scalable IoT architectures linking edge devices with cloud-based AI dashboards."
+              "id": 65,
+              "description": "Integration of multi-sensor inputs (video, lidar, radar) for robust scene understanding."
             },
             {
-              "id": 139,
-              "description": "Industry 4.0–enabled IoT solutions driving automation, connectivity, and smart analytics."
+              "id": 66,
+              "description": "Advanced computer vision pipelines optimized for edge devices and low-latency applications."
             }
           ]
         }

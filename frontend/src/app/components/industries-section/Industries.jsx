@@ -7,8 +7,8 @@ function Industries({ headerData }) {
   const [showAll, setShowAll] = useState(false);
   const [initialDisplayCount, setInitialDisplayCount] = useState(3);
   const { title, description } = headerData;
-  const industryCards = headerData?.industryCard || [];
-
+  const industryCardsList = headerData?.industryCard || [];
+ const industryCards = industryCardsList.sort((a, b) => a.order - b.order);
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {

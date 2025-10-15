@@ -257,9 +257,9 @@ export default function Header({ headerData }) {
               className="max-md:w-40 object-contain"
             />
             <nav className="flex items-center">
-              <ul className="flex gap-6 font-poppins items-center text-lg text-black">
+              <ul className="flex gap-6 font-poppins items-center text-md text-black">
                 {headerData?.navItems?.map((item) => (
-                  <li
+                  <li                                                                   
                     key={item.id}
                     className="hover:text-primaryColor cursor-pointer px-3 py-2"
                     onClick={() => handleNavigation(item)}

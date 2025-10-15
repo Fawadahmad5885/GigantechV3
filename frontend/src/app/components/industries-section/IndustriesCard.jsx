@@ -31,14 +31,14 @@ function IndustriesCard({ img, title, subtitle, desc }) {
             </div>
             <div className=" p-4 text-center font-poppins mb-5">
               {/* Heading */}
-              <h4 className="text-primaryColor font-semibold text-center leading-10 font-poppins text-lg">
+              <h4 className="text-primaryColor leading-6  font-semibold text-left  font-poppins text-lg">
                 {title}
               </h4>
-              <h5 className="text-te font-medium text-left leading-10 poppins-font text-base">
+              <h5 className="text-te font-medium mt-2 leading-6 text-left poppins-font text-base">
                 {subtitle}
               </h5>
               {/* Short Description */}
-              <div className="card-description font-normal ">
+              <div className="card-description mt-2 text-justify font-normal ">
                 {/* <ReactMarkdown> */}
                   {desc}
                   {/* </ReactMarkdown> */}

@@ -21,13 +21,13 @@ export default function Services({ headerData }) {
       </div>
       <div className="absolute opacity-10 inset-0 z-[-1]">
         {/* ✅ Dynamic Background Image */}
-        <Image
+        {/* <Image
           src={getStrapiMedia(backgroundImage.url)}
           alt="Services background"
           fill
           className="object-contain object-left"
           priority
-        />
+        /> */}
       </div>
     </div>
   );

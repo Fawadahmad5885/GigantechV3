@@ -103,11 +103,13 @@ export default function CaseStudies({ headerData, cards }) {
                       {item.description}
                     </p>
 
-                    <div className="inline-flex items-center text-primaryColor transition-colors duration-300 relative z-20 mt-auto">
-                      <span className="text-base font-poppins tracking-wide font-medium">
-                        Read Case Study
-                      </span>
-                      <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
+                    <div className="relative z-20 mt-auto">
+                      <button className="primaryButton !flex !flex-row !items-center !justify-center px-2 py-3 group transition-all duration-300">
+                        <span className="font-poppins font-medium text-sm">
+                          Read Case Study
+                        </span>
+                        <ArrowRight className="w-5 h-5 ml-2 " />
+                      </button>
                     </div>
                   </div>
                 </Link>

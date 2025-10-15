@@ -36,7 +36,7 @@ body {
 }
 
 .card-description {
-  @apply text-gray-700 text-left text-sm md:text-base font-poppins
+  @apply text-gray-700  text-sm md:text-base font-poppins
 }
 
 .footer-items-heading {
@@ -70,7 +70,7 @@ body {
 @apply font-poppins max-md:text-left text-base leading-6 mt-3 mb-0;
 }
 .case-study-section h2 {
-@apply text-2xl lg:text-3xl  text-left font-poppins tracking-wide space-y-2 lg:leading-4 font-medium 
+@apply text-2xl lg:text-3xl  text-left font-poppins text-primaryColor tracking-wide space-y-2 lg:leading-4 font-medium 
 } 
 
 .case-study-section h2 {

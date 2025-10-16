@@ -103,13 +103,12 @@ const NewsCard = ({ item }) => {
 
           {/* Bottom Row: Learn More & Date */}
           <div className="flex justify-start items-center text-sm mt-auto mb-3">
-            <div
-              // href={`/case-studies/${item.slug}`}
-              className="inline-flex items-center   text-primaryColor   rounded-lg transition-colors duration-300 group"
-            >
-              <span className="text-base font-poppins tracking-wide font-medium">Read more</span>
-              <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
-            </div>
+            <button className="primaryButton !flex !flex-row !items-center !justify-center px-3 py-3 group transition-all duration-300">
+                        <span className="font-poppins font-medium text-sm">
+                          Read More
+                        </span>
+                        <ArrowRight className="w-5 h-5 ml-2 " />
+                      </button>
           </div>
         </div>
       </article>

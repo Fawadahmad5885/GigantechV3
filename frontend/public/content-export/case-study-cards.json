@@ -73,6 +73,17 @@
       },
       "technologiesCard": [
         {
+          "id": 90,
+          "title": "OpenAI",
+          "tooltip": null,
+          "image": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/azure_b1920458f6_88836f9c0a.png",
+            "formats": null
+          }
+        },
+        {
           "id": 222,
           "title": "Nextjs",
           "tooltip": null,
@@ -133,6 +144,28 @@
           }
         },
         {
+          "id": 92,
+          "title": "Python",
+          "tooltip": null,
+          "image": {
+            "id": 114,
+            "documentId": "wt0ds8xelyv3p4j69kuoe2r5",
+            "url": "/uploads/python_b633d29855.png",
+            "formats": null
+          }
+        },
+ {
+          "id": 113,
+          "title": "MongoDB",
+          "tooltip": null,
+          "image": {
+            "id": 123,
+            "documentId": "yxras1p2fg671hjexxi9lsj8",
+            "url": "/uploads/mongodb_ab58931eba_34c923d098.svg",
+            "formats": null
+          }
+        },
+        {
           "id": 223,
           "title": "Nestjs",
           "tooltip": null,
@@ -167,28 +200,62 @@
             "formats": {}
           }
         },
-        {
-          "id": 225,
-          "title": "RAG",
+         {
+          "id": 93,
+          "title": "Docker",
           "tooltip": null,
           "image": {
-            "id": 228,
-            "documentId": "dsdt2u91u58fmkbu12znl3yd",
-            "url": "/uploads/rag_109045bd60.png",
+            "id": 115,
+            "documentId": "p68470xuxs67znyfxv7zv5by",
+            "url": "/uploads/docker_b7cb822570.png",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_rag.png",
-                "hash": "thumbnail_rag_109045bd60",
+                "name": "thumbnail_docker.png",
+                "hash": "thumbnail_docker_b7cb822570",
                 "ext": ".png",
                 "mime": "image/png",
                 "path": null,
-                "width": 171,
+                "width": 156,
                 "height": 156,
-                "size": 31.28,
-                "sizeInBytes": 31275,
-                "url": "/uploads/thumbnail_rag_109045bd60.png"
+                "size": 9.06,
+                "sizeInBytes": 9062,
+                "url": "/uploads/thumbnail_docker_b7cb822570.png"
+              },
+              "small": {
+                "name": "small_docker.png",
+                "hash": "small_docker_b7cb822570",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 500,
+                "size": 31.25,
+                "sizeInBytes": 31247,
+                "url": "/uploads/small_docker_b7cb822570.png"
               }
             }
+          }
+        },
+        {
+          "id": 95,
+          "title": "RAG",
+          "tooltip": null,
+          "image": {
+            "id": 117,
+            "documentId": "jscbhyfqcly89iyn3cajcabu",
+            "url": "/uploads/rag-icon-2.png",
+            "formats": {}
+          }
+        },
+        {
+          "id": 96,
+          "title": "AWS",
+          "tooltip": null,
+          "image": {
+            "id": 110,
+            "documentId": "r9ut8dkowx0img93fs0fsm45",
+            "url": "/uploads/aws_01516baf9f.svg",
+            "formats": null
           }
         }
       ]
@@ -264,7 +331,149 @@
           }
         }
       },
-      "technologiesCard": []
+      "technologiesCard": [
+
+        {
+          "id": 36,
+          "title": "Python",
+          "tooltip": null,
+          "image": {
+            "id": 76,
+            "documentId": "gl06r926y8lqmvmjzk012ybk",
+            "url": "/uploads/ansble.png",
+            "formats": {}
+          }
+        },
+        {
+          "id": 222,
+          "title": "Nextjs",
+          "tooltip": null,
+          "image": {
+            "id": 211,
+            "documentId": "h58vhuci9k5rtg8lkseidpun",
+            "url": "/uploads/claude_2b1f7765c4.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_claude.png",
+                "hash": "thumbnail_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 148,
+                "size": 4.99,
+                "sizeInBytes": 4987,
+                "url": "/uploads/thumbnail_claude_2b1f7765c4.png"
+              },
+              "small": {
+                "name": "small_claude.png",
+                "hash": "small_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 301,
+                "size": 11.72,
+                "sizeInBytes": 11718,
+                "url": "/uploads/small_claude_2b1f7765c4.png"
+              },
+              "medium": {
+                "name": "medium_claude.png",
+                "hash": "medium_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 452,
+                "size": 19.37,
+                "sizeInBytes": 19368,
+                "url": "/uploads/medium_claude_2b1f7765c4.png"
+              },
+              "large": {
+                "name": "large_claude.png",
+                "hash": "large_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 603,
+                "size": 27.26,
+                "sizeInBytes": 27262,
+                "url": "/uploads/large_claude_2b1f7765c4.png"
+              }
+            }
+          }
+        },
+        {
+          "id": 38,
+          "title": "Docker",
+          "tooltip": null,
+          "image": {
+            "id": 84,
+            "documentId": "dz9vdsmz1tfu9opb94f3ikte",
+            "url": "/uploads/icons8_claude_ai_96_7da77dc21f.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_icons8-claude-ai-96.png",
+                "hash": "thumbnail_icons8_claude_ai_96_7da77dc21f",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 156,
+                "height": 156,
+                "size": 9.06,
+                "sizeInBytes": 9062,
+                "url": "/uploads/thumbnail_icons8_claude_ai_96_7da77dc21f.png"
+              },
+              "small": {
+                "name": "small_icons8-claude-ai-96.png",
+                "hash": "small_icons8_claude_ai_96_7da77dc21f",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 500,
+                "size": 31.25,
+                "sizeInBytes": 31247,
+                "url": "/uploads/small_icons8_claude_ai_96_7da77dc21f.png"
+              }
+            }
+          }
+        },
+        {
+          "id": 39,
+          "title": "PostgreSQL",
+          "tooltip": null,
+          "image": {
+            "id": 109,
+            "documentId": "m3aw6cy8xvi8css381vyob4n",
+            "url": "/uploads/postgress_7e4aba7ff0.svg",
+            "formats": null
+          }
+        },
+        {
+          "id": 39,
+          "title": "OpenCV",
+          "tooltip": null,
+          "image": {
+            "id": 109,
+            "documentId": "m3aw6cy8xvi8css381vyob4n",
+            "url": "/uploads/opencv.png",
+            "formats": null
+          }
+        },
+        {
+          "id": 39,
+          "title": "InsightFace",
+          "tooltip": null,
+          "image": {
+            "id": 109,
+            "documentId": "m3aw6cy8xvi8css381vyob4n",
+            "url": "/uploads/insightface.png",
+            "formats": null
+          }
+        }
+      ]
     },
    {
       "id": 25,
@@ -340,13 +549,73 @@
       "technologiesCard": [
         {
           "id": 90,
-          "title": "Whisper",
+          "title": "OpenAI",
           "tooltip": null,
           "image": {
             "id": 112,
             "documentId": "nwuwsrf0qg8vahjoe88vrq65",
             "url": "/uploads/azure_b1920458f6_88836f9c0a.png",
             "formats": null
+          }
+        },
+         {
+          "id": 222,
+          "title": "Nextjs",
+          "tooltip": null,
+          "image": {
+            "id": 211,
+            "documentId": "h58vhuci9k5rtg8lkseidpun",
+            "url": "/uploads/claude_2b1f7765c4.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_claude.png",
+                "hash": "thumbnail_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 148,
+                "size": 4.99,
+                "sizeInBytes": 4987,
+                "url": "/uploads/thumbnail_claude_2b1f7765c4.png"
+              },
+              "small": {
+                "name": "small_claude.png",
+                "hash": "small_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 301,
+                "size": 11.72,
+                "sizeInBytes": 11718,
+                "url": "/uploads/small_claude_2b1f7765c4.png"
+              },
+              "medium": {
+                "name": "medium_claude.png",
+                "hash": "medium_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 452,
+                "size": 19.37,
+                "sizeInBytes": 19368,
+                "url": "/uploads/medium_claude_2b1f7765c4.png"
+              },
+              "large": {
+                "name": "large_claude.png",
+                "hash": "large_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 603,
+                "size": 27.26,
+                "sizeInBytes": 27262,
+                "url": "/uploads/large_claude_2b1f7765c4.png"
+              }
+            }
           }
         },
         {
@@ -356,7 +625,7 @@
           "image": {
             "id": 113,
             "documentId": "monmhi0xoeo4weddqfx8stbf",
-            "url": "/uploads/milvus_4696c1ce68.jpg",
+            "url": "/uploads/docker_a8db88dd7b.png",
             "formats": {
               "thumbnail": {
                 "name": "thumbnail_milvus.jpg",
@@ -381,6 +650,28 @@
             "id": 114,
             "documentId": "wt0ds8xelyv3p4j69kuoe2r5",
             "url": "/uploads/python_b633d29855.png",
+            "formats": null
+          }
+        },
+        {
+          "id": 39,
+          "title": "PostgreSQL",
+          "tooltip": null,
+          "image": {
+            "id": 109,
+            "documentId": "m3aw6cy8xvi8css381vyob4n",
+            "url": "/uploads/postgress_7e4aba7ff0.svg",
+            "formats": null
+          }
+        },
+        {
+          "id": 39,
+          "title": "Redis",
+          "tooltip": null,
+          "image": {
+            "id": 109,
+            "documentId": "m3aw6cy8xvi8css381vyob49",
+            "url": "/uploads/redis.png",
             "formats": null
           }
         },
@@ -422,15 +713,16 @@
         },
         {
           "id": 94,
-          "title": "WhatsApp API",
+          "title": "LLaMA",
           "tooltip": null,
           "image": {
             "id": 116,
             "documentId": "ib69mqw72oa8skvtvp8cwsm7",
-            "url": "/uploads/icons8_whatsapp_96_168cce170d_0b041b2138.png",
+            "url": "/uploads/llama.png",
             "formats": null
           }
         },
+       
         {
           "id": 95,
           "title": "RAG",
@@ -438,7 +730,7 @@
           "image": {
             "id": 117,
             "documentId": "jscbhyfqcly89iyn3cajcabu",
-            "url": "/uploads/rag_6ddc3bb427.png",
+            "url": "/uploads/rag-icon-2.png",
             "formats": {}
           }
         },
@@ -528,6 +820,17 @@
       },
       "technologiesCard": [
         {
+          "id": 90,
+          "title": "OpenAI",
+          "tooltip": null,
+          "image": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/azure_b1920458f6_88836f9c0a.png",
+            "formats": null
+          }
+        },
+        {
           "id": 236,
           "title": "Reactjs",
           "tooltip": null,
@@ -587,16 +890,17 @@
           }
         },
         {
-          "id": 239,
-          "title": "AWS",
+          "id": 238,
+          "title": "Apple Intelligence",
           "tooltip": null,
           "image": {
-            "id": 235,
-            "documentId": "kff0ty4uhw9zuu09wv0nrc4m",
-            "url": "/uploads/aws_55a49baeb5.svg",
+            "id": 234,
+            "documentId": "v6ohfrrldvru7f2skkk515h1",
+            "url": "/uploads/apple-intell.png",
             "formats": null
           }
         },
+        
         {
           "id": 240,
           "title": "SwiftUI",
@@ -619,6 +923,17 @@
                 "url": "/uploads/thumbnail_swiftui_16ca5d2319.png"
               }
             }
+          }
+        },
+        {
+          "id": 239,
+          "title": "AWS",
+          "tooltip": null,
+          "image": {
+            "id": 235,
+            "documentId": "kff0ty4uhw9zuu09wv0nrc4m",
+            "url": "/uploads/aws_55a49baeb5.svg",
+            "formats": null
           }
         }
       ]
@@ -695,6 +1010,17 @@
         }
       },
       "technologiesCard": [
+         {
+          "id": 90,
+          "title": "OpenAI",
+          "tooltip": null,
+          "image": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/azure_b1920458f6_88836f9c0a.png",
+            "formats": null
+          }
+        },
         {
           "id": 36,
           "title": "Python",
@@ -707,14 +1033,63 @@
           }
         },
         {
-          "id": 37,
-          "title": "NodeJS",
+          "id": 222,
+          "title": "Nextjs",
           "tooltip": null,
           "image": {
-            "id": 80,
-            "documentId": "l9xie1sc0tuugscdse7c45rd",
-            "url": "/uploads/angular_5a5e53ddb7_0eddb3ad39.png",
-            "formats": {}
+            "id": 211,
+            "documentId": "h58vhuci9k5rtg8lkseidpun",
+            "url": "/uploads/claude_2b1f7765c4.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_claude.png",
+                "hash": "thumbnail_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 148,
+                "size": 4.99,
+                "sizeInBytes": 4987,
+                "url": "/uploads/thumbnail_claude_2b1f7765c4.png"
+              },
+              "small": {
+                "name": "small_claude.png",
+                "hash": "small_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 301,
+                "size": 11.72,
+                "sizeInBytes": 11718,
+                "url": "/uploads/small_claude_2b1f7765c4.png"
+              },
+              "medium": {
+                "name": "medium_claude.png",
+                "hash": "medium_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 452,
+                "size": 19.37,
+                "sizeInBytes": 19368,
+                "url": "/uploads/medium_claude_2b1f7765c4.png"
+              },
+              "large": {
+                "name": "large_claude.png",
+                "hash": "large_claude_2b1f7765c4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 603,
+                "size": 27.26,
+                "sizeInBytes": 27262,
+                "url": "/uploads/large_claude_2b1f7765c4.png"
+              }
+            }
           }
         },
         {
@@ -761,6 +1136,17 @@
             "id": 109,
             "documentId": "m3aw6cy8xvi8css381vyob4n",
             "url": "/uploads/postgress_7e4aba7ff0.svg",
+            "formats": null
+          }
+        },
+        {
+          "id": 90,
+          "title": "vLLM",
+          "tooltip": null,
+          "image": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/vllm-color.png",
             "formats": null
           }
         },
@@ -897,7 +1283,7 @@
         },
         {
           "id": 114,
-          "title": "Android (Kotlin)",
+          "title": "Android",
           "tooltip": null,
           "image": {
             "id": 124,

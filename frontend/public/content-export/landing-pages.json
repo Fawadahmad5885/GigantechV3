@@ -1318,6 +1318,30 @@
           }
         },
         {
+          "id": 90,
+          "name": "vLLM",
+          "category": "Artificial Intelligence",
+          "slug": "llvLLM",
+          "tooltip": "LLM app framework",
+          "logo": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/vllm-color.png"
+          }
+        },
+        {
+          "id": 90,
+          "name": "Ultralytics",
+          "category": "Artificial Intelligence",
+          "slug": "Ultralytics",
+          "tooltip": null,
+          "logo": {
+            "id": 112,
+            "documentId": "nwuwsrf0qg8vahjoe88vrq65",
+            "url": "/uploads/ultralytics.png"
+          }
+        },
+        {
           "id": 540,
           "documentId": "ga2town9vzls4z2bbormlg4j",
           "name": "LlamaIndex",
